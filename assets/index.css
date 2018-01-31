@@ -1,0 +1,290 @@
+.main{
+    width: 1000px;
+    height: 640px;
+}
+
+.battlefield{
+    width: 1000px;
+    height: 640px;
+    background: url("./images/empty.jpg") no-repeat;
+    background-position: -440px -190px;
+}
+
+.battlelist{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.headline{
+    width: 500px;
+    height: 80px;
+    background: url('./images/top.png') no-repeat;
+}
+
+.body{
+    min-height: 300px;
+    width: 500px;
+    background: url('./images/clanes.png') repeat-y;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.footer{
+    width: 500px;
+    height: 41px;
+    background: url('./images/bottom.png') repeat-y;
+}
+
+.body table{
+    width: 100%;
+    padding: 0 40px;
+}
+
+.body table td{
+    line-height: 40px;
+    height: 40px;
+    padding: 0;
+    color: #ffddc3;
+    font-size: 16px;
+    font-family: tahoma;
+    text-shadow: 1px 1px 2px #000;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 230px;
+    cursor: pointer;
+}
+
+.victory{
+    width: 40px;
+    height: 40px;
+    background: url('images/sword.png') no-repeat;
+    background-position: center;
+}
+
+.defeat{
+    width: 40px;
+    height: 40px;
+    background: url('images/shield.png') no-repeat;
+    background-position: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.battleGrid{
+    width: 1000px;
+    height: 640px;
+}
+
+.castle19{
+    width: 72px;
+    height: 72px;
+}
+
+.castle18{
+    background: url('./images/18.png') no-repeat;
+    width: 72px;
+    height: 72px;
+}
+
+.castle17{
+    width: 72px;
+    height: 72px;
+}
+
+.castle16{
+    background: url('./images/16.png') no-repeat;
+    width: 72px;
+    height: 72px;
+}
+
+.castle15{
+    background: url('./images/15.png') no-repeat;
+    width: 72px;
+    height: 72px;
+}
+
+.castle14{
+    background: url('./images/14.png') no-repeat;
+    width: 72px;
+    height: 72px;
+}
+
+.castle13{
+     width: 72px;
+    height: 72px;
+}
+
+.castle12{
+     width: 72px;
+    height: 72px;
+}
+
+.a1{
+    position: absolute;
+    top: 325px;
+    left: 154px;
+}
+
+.a2{
+    position: absolute;
+    top: 377px;
+    left: 257px;
+}
+
+.a3{
+    position: absolute;
+    top: 431px;
+    left: 364px;
+}
+
+.a4{
+    position: absolute;
+    top: 482px;
+    left: 469px;
+}
+.b1{
+    position: absolute;
+    top: 273px;
+    left: 259px;
+}
+
+.b2{
+    position: absolute;
+    top: 325px;
+    left: 364px;
+}
+
+.b3{
+    position: absolute;
+    top: 378px;
+    left: 469px;
+}
+
+.b4{
+    position: absolute;
+    top: 429px;
+    left: 573px;
+}
+
+.c1{
+    position: absolute;
+    top: 219px;
+    left: 363px;
+}
+
+.c2{
+    position: absolute;
+    top: 271px;
+    left: 468px;
+}
+
+.c3{
+    position: absolute;
+    top: 324px;
+    left: 574px;
+}
+
+.c4{
+    position: absolute;
+    top: 377px;
+    left: 680px;
+}
+
+.d1{
+    position: absolute;
+    top: 168px;
+    left: 468px;
+}
+
+.d2{
+    position: absolute;
+    top: 219px;
+    left: 572px;
+}
+
+.d3{
+    position: absolute;
+    top: 272px;
+    left: 679px;
+}
+
+.d4{
+    position: absolute;
+    top: 324px;
+    left: 785px;
+}
+
+.e1{
+    position: absolute;
+    top: 115px;
+    left: 574px;
+}
+
+.e2{
+    position: absolute;
+    top: 167px;
+    left: 679px;
+}
+
+.e3{
+    position: absolute;
+    top: 221px;
+    left: 783px;
+}
+
+.e4{
+    position: absolute;
+    top: 272px;
+    left: 889px;
+}
+
+.level {
+    background: url('images/star.png') no-repeat;
+    position: absolute;
+    color: orange;
+    font-weight: bold;
+    font-family: tahoma, arial;
+    padding-left: 9px;
+    line-height: 23px;
+    height: 23px;
+    vertical-align: middle;
+    display: inline-block;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    bottom: 3px;
+    left: -20px;
+}
+
+.castle {
+    background: radial-gradient(closest-corner at 10px 5px , #FFF 0%, transparent 70%), linear-gradient(to bottom, #bc0101, #570305);
+    border-radius: 100%;
+    display: inline-block;
+    color: #f1c88d;
+    padding: 3px;
+    border: 2px solid #444;
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 13px;
+    position: absolute;
+    top: 67px;
+    left: -23px;
+    text-shadow: 1px 1px 1px silver;
+    z-index: 2;
+}
+
+.name {
+    position: absolute;
+    top: 69px;
+    left: -8px;
+    z-index: 0;
+    color: #f1c88d;
+    border: solid 2px #575861;
+    padding: 1px 3px 1px 12px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 80px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
