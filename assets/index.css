@@ -1,3 +1,6 @@
+* {
+    font-family: Tahoma, Arial;
+}
 .main{
     width: 1000px;
     height: 640px;
@@ -287,4 +290,41 @@
     max-width: 80px;
     overflow: hidden;
     word-wrap: break-word;
+}
+
+.back {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    background: url('images/button2.png') no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    color: #fff;
+    height: 33px;
+    line-height: 33px;
+    vertical-align: middle;
+    padding: 5px 51px 5px 10px;
+    display: none;
+}
+
+.hamburger{
+    display: inline-block;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.hamburger hr{
+    color: #fff;
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 0;
+    margin: 5px 0;
+    width: 30px;
+}
+
+.screenshot{
+    position: absolute;
+    top:-10000px;
+    left: -10000px;
+    z-index: 3;
 }

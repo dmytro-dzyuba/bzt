@@ -20,6 +20,11 @@ $(document).ready(function(){
             });
         }
     }
+
+    $('.back').click(function(){
+        close();
+    });
+
 });
 
 function open(id){
@@ -31,6 +36,10 @@ function open(id){
         for (var n = 0; n < battle.length; n++){
             var ceil = battle[n];
             $('<div />').addClass('ceil')
+                .attr('data-img', ceil.img)
+                .click(function(e){
+                    displayImg(this.attr('data-img'))
+                })
                 .addClass(ceil.ceil)
                 .addClass('castle'+ ceil.castle)
                 .append(
@@ -44,5 +53,24 @@ function open(id){
                 )
                 .appendTo(battleGrid);
         }
+        $('.back').css('display', 'block');
     }
+}
+
+function close(){
+    $('.battleGrid').remove();
+    $('.back').css('display', 'none');
+    $('.battlelist').removeClass('hidden');
+}
+
+function displayImg(img){
+    var el = $('<img />').attr({
+        'src': img,
+        'class': 'screenshot'
+    }).click(function(){
+        this.remove()
+    })
+    .appendTo('body');
+
+    $(window).width() - img.width();
 }
