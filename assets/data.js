@@ -19,70 +19,70 @@ var maps = {
     '1': [
         {
             'ceil': 'c1',
-            'img': 'Колёный.png',
+            'img': 'cities/1/Колёный.png',
             'level': 79,
             'castle': 16,
             'name': 'Колёный'
         },
         {
             'ceil': 'd1',
-            'img': 'Dizel(Надя).png',
+            'img': 'cities/1/Dizel(Надя).png',
             'level': 79,
             'castle': 16,
             'name': 'Dizel'
         },
         {
             'ceil': 'e1',
-            'img': 'туктук.png',
+            'img': 'cities/1/туктук.png',
             'level': 68,
             'castle': 13,
             'name': 'туктук'
         },
         {
             'ceil': 'd2',
-            'img': 'ОРЁЛ.png',
+            'img': 'cities/1/ОРЁЛ.png',
             'level': 81,
             'castle': 18,
             'name': 'туктук'
         },
         {
             'ceil': 'e2',
-            'img': 'С@нек.png',
+            'img': 'cities/1/С@нек.png',
             'level': 75,
             'castle': 15,
             'name': 'С@нек'
         },
         {
             'ceil': 'd3',
-            'img': 'Белый.png',
+            'img': 'cities/1/Белый.png',
             'level': 80,
             'castle': 18,
             'name': 'БеЛыЙ'
         },
         {
             'ceil': 'e3',
-            'img': 'Курган.png',
+            'img': 'cities/1/Курган.png',
             'level': 75,
             'castle': 15,
             'name': 'Курган'
         },
         {
             'ceil': 'c4',
-            'img': 'Cool.png',
+            'img': 'cities/1/Cool.png',
             'level': 78,
             'castle': 16,
             'name': 'Cool'
         },
         {
             'ceil': 'd4',
-            'img': 'Злыдень.png',
+            'img': 'cities/1/Злыдень.png',
             'level': 80,
             'castle': 16,
             'name': 'Злыдень'
         },
         {
             'ceil': 'e4',
-            'img': 'Виктория.png',
+            'img': 'cities/1/Виктория.png',
             'level': 60,
             'castle': 13,
             'name': 'Виктория'

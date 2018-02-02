@@ -38,7 +38,7 @@ function open(id){
             $('<div />').addClass('ceil')
                 .attr('data-img', ceil.img)
                 .click(function(e){
-                    displayImg(this.attr('data-img'))
+                    displayImg($(this).attr('data-img'))
                 })
                 .addClass(ceil.ceil)
                 .addClass('castle'+ ceil.castle)
@@ -68,9 +68,31 @@ function displayImg(img){
         'src': img,
         'class': 'screenshot'
     }).click(function(){
-        this.remove()
+        $(this).remove()
     })
-    .appendTo('body');
-
-    $(window).width() - img.width();
+    .appendTo('body').load(function() {
+        var win = $(window);
+        if (win.width() < el.width() || win.height() < el.height()) {
+            if (el.width() / win.width() > el.height() / win.height()) {
+                el.css({
+                    'width': '100%',
+                    'left': 0,
+                    'top': 'auto'
+                });
+            } else {
+                el.css({
+                    'height': '100%',
+                    'top': 0,
+                    'left': 'auto'
+                });
+            }
+        } else {
+            var top = parseInt((win.height() - el.height()) / 2);
+            var left = parseInt((win.width() - el.width()) / 2);
+            el.css({
+                'top': top,
+                'left': left
+            })
+        }
+    });
 }

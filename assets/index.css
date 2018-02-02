@@ -329,4 +329,5 @@
     top:-10000px;
     left: -10000px;
     z-index: 3;
+    box-sizing: border-box;
 }
