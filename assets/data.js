@@ -5,6 +5,13 @@ var data = [
         win: true,
         date: '22.01.2018',
         rate: '30/22'
+    },
+    {
+        id: 2,
+        name: 'D и k a я МяTa',
+        win: false,
+        date: '02.02.2016',
+        rate: '0/22'
     }
 ];
 
@@ -80,5 +87,78 @@ var maps = {
             'castle': 13,
             'name': 'Виктория'
         }
+    ],
+    2: [
+        {
+            'ceil': 'b1',
+            'img': '',
+            'level': 69,
+            'castle': 14,
+            'name': 'СССР БРОДЯГА'
+        },
+        {
+            'ceil': 'c1',
+            'img': '',
+            'level': 72,
+            'castle': 14,
+            'name': 'vedjmak'
+        },
+        {
+            'ceil': 'c2',
+            'img': '',
+            'level': 74,
+            'castle': 14,
+            'name': '☼Елена® ☼'
+        },
+        {
+            'ceil': 'd2',
+            'img': '',
+            'level': 76,
+            'castle': 15,
+            'name': '<Анархист>'
+        },
+        {
+            'ceil': 'd3',
+            'img': '',
+            'level': 72,
+            'castle': 14,
+            'name': 'РАЗРУШИТЕЛЬ',
+            pvpScore:            1449
+        },
+        {
+            'ceil': 'e3',
+            'img': '',
+            'level': 73,
+            'castle': 14,
+            'name': 'ДОБРЫЙ КАБАН'
+        },
+        {
+            'ceil': 'e4',
+            'img': '',
+            'level': 74,
+            'castle': 14,
+            'name': '♥MELISSA♥'
+        },
+        {
+            'ceil': 'd1',
+            'img': '',
+            'level': 65,
+            'castle': 13,
+            'name': 'Lilawadi DM'
+        },
+        {
+            'ceil': 'e1',
+            'img': '',
+            'level': 65,
+            'castle': 13,
+            'name': 'СчастьЕ'
+        }/*,
+        {
+            'ceil': '',
+            'img': '',
+            'level': ,
+            'castle': ,
+            'name': ''
+        },*/
     ]
 };

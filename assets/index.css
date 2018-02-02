@@ -116,12 +116,14 @@
 }
 
 .castle13{
-     width: 72px;
+    background: url('./images/13.png') no-repeat;
+    width: 72px;
     height: 72px;
 }
 
-.castle12{
-     width: 72px;
+.castle12, .castle11, .castle10, .castle9, .castle8{
+    background: url('./images/12.png') no-repeat;
+    width: 72px;
     height: 72px;
 }
 
