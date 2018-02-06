@@ -11,7 +11,14 @@ var data = [
         name: 'D и k a я МяTa',
         win: false,
         date: '02.02.2016',
-        rate: '0/22'
+        rate: '3/22'
+    },
+    {
+        id: 3,
+        name: 'БоЕвАя Русь2',
+        win: false,
+        date: '06.02.2016',
+        rate: '6/6'
     }
 ];
 
@@ -152,13 +159,43 @@ var maps = {
             'level': 65,
             'castle': 13,
             'name': 'СчастьЕ'
-        }/*,
+        }
+    ],
+    3: [
         {
-            'ceil': '',
+            'ceil': 'b4',
+            'img': 'cities/3/beri_dopi.jpg',
+            'level': 87,
+            'castle': 17,
+            'name': 'БериДопи BΞR'
+        },
+        {
+            'ceil': 'e1',
+            'img': 'cities/3/shadow.jpg',
+            'level': 83,
+            'castle': 18,
+            'name': 'Shadow BΞR'
+        },
+        {
+            'ceil': 'c4',
             'img': '',
-            'level': ,
-            'castle': ,
-            'name': ''
-        },*/
+            'level': 82,
+            'castle': 17,
+            'name': 'АлександрBΞR'
+        },
+        {
+            'ceil': 'd3',
+            'img': '',
+            'level': 82,
+            'castle': 16,
+            'name': 'Morgan BΞR'
+        },
+        {
+            'ceil': 'e2',
+            'img': '',
+            'level': 83,
+            'castle': 18,
+            'name': 'ЕвгенийBΞR'
+        }
     ]
 };
