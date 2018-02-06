@@ -77,13 +77,13 @@ function displayImg(img){
                 el.css({
                     'width': '100%',
                     'left': 0,
-                    'top': 'auto'
+                    'top': 0
                 });
             } else {
                 el.css({
                     'height': '100%',
                     'top': 0,
-                    'left': 'auto'
+                    'left': 0
                 });
             }
         } else {
