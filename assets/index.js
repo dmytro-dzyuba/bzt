@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function(){console.log(window.top);
     if (data != undefined && data.length){
         var table = $('<table />').appendTo('.body');
         for(var n = 0; n < data.length; n++){
@@ -35,11 +35,7 @@ function open(id){
         var battleGrid = $('<div />').addClass('battleGrid').appendTo('.battlefield');
         for (var n = 0; n < battle.length; n++){
             var ceil = battle[n];
-            $('<div />').addClass('ceil')
-                .attr('data-img', ceil.img)
-                .click(function(e){
-                    displayImg($(this).attr('data-img'))
-                })
+            var div = $('<div />').addClass('ceil')
                 .addClass(ceil.ceil)
                 .addClass('castle'+ ceil.castle)
                 .append(
@@ -50,8 +46,15 @@ function open(id){
                 )
                 .append(
                     $('<div />').addClass('name').html(ceil.name)
-                )
-                .appendTo(battleGrid);
+                );
+		if (ceil.img != undefined && ceil.img != null){
+		    div.click(function(e){
+                        displayImg($(this).attr('data-img'))
+                    })
+                    .attr('data-img', ceil.img)
+                    .addClass('clickable');
+		}
+                div.appendTo(battleGrid);
         }
         $('.back').css('display', 'block');
     }

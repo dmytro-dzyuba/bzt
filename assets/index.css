@@ -332,3 +332,7 @@
     z-index: 3;
     box-sizing: border-box;
 }
+
+.clickable{
+    cursor: pointer;
+}
