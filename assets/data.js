@@ -26,6 +26,13 @@
         win: true,
         date: '10.02.2018',
         rate: '22/8'
+    },
+    {
+        id: 5,
+        name: 'NIGHT WOLVES',
+        win: true,
+        date: '26.02.2018',
+        rate: '28/25'
     }
 ];
 
@@ -261,6 +268,78 @@ var maps = {
             'level': 72,
             'castle': 15,
             'name': 'Георгий'
+        }
+    ],
+    5: [
+        {
+            'ceil': 'b1',
+            'img': 'cities/5/b1.jpg',
+            'level': 76,
+            'castle': 16,
+            'name': 'y@streb'
+        },
+        {
+            'ceil': 'c1',
+            'img': 'cities/5/c1.jpg',
+            'level': 78,
+            'castle': 15,
+            'name': '☼163RU☼™NW™'
+        },
+        {
+            'ceil': 'd1',
+            'img': 'cities/5/d1.jpg',
+            'level': 63,
+            'castle': 12,
+            'name': '♣EdgarEs*NW*'
+        },
+        {
+            'ceil': 'e1',
+            'img': 'cities/5/e1.jpg',
+            'level': 73,
+            'castle': 14,
+            'name': 'Леся   NW'
+        },
+        {
+            'ceil': 'c2',
+            'img': 'cities/5/c2.jpg',
+            'level': 73,
+            'castle': 15,
+            'name': '♣LEKSAN™NW™'
+        },
+        {
+            'ceil': 'd2',
+            'img': 'cities/5/d2.jpg',
+            'level': 77,
+            'castle': 16,
+            'name': 'Подавись™NW™'
+        },
+        {
+            'ceil': 'e2',
+            'img': 'cities/5/e2.jpg',
+            'level': 78,
+            'castle': 15,
+            'name': 'Архитектор'
+        },
+        {
+            'ceil': 'd3',
+            'img': 'cities/5/d3.jpg',
+            'level': 73,
+            'castle': 14,
+            'name': '♣Лютый™NW™'
+        },
+        {
+            'ceil': 'e3',
+            'img': 'cities/5/e3.jpg',
+            'level': 77,
+            'castle': 15,
+            'name': 'ZHNETS™ NW™'
+        },
+        {
+            'ceil': 'e4',
+            'img': 'cities/5/e4.jpg',
+            'level': 73,
+            'castle': 14,
+            'name': 'Алексей™NW™'
         }
     ]
 };
