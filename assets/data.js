@@ -33,6 +33,13 @@
         win: true,
         date: '26.02.2018',
         rate: '28/25'
+    },
+    {
+        id: 6,
+        name: 'InvincibLegion',
+        win: false,
+        date: '02.03.2018',
+        rate: '2/29'
     }
 ];
 
@@ -341,5 +348,79 @@ var maps = {
             'castle': 14,
             'name': 'Алексей™NW™'
         }
+    ],
+    6: [
+        {
+            'ceil': 'b1',
+            'img': 'cities/6/b1.jpg',
+            'level': 84,
+            'castle': 18,
+            'name': 'Lexus'
+        },
+
+        {
+            'ceil': 'c1',
+            'level': 83,
+            'castle': 17,
+            'name': 'Fly'
+        },
+
+        {
+            'ceil': 'c2',
+            'img': 'cities/6/c2.jpg',
+            'level': 84,
+            'castle': 18,
+            'name': 'HighLand'
+        },
+
+        {
+            'ceil': 'd2',
+            'level': 84,
+            'castle': 19,
+            'name': '*УКРОП*'
+        },
+
+        {
+            'ceil': 'd3',
+            'img': 'cities/6/d3.jpg',
+            'level': 82,
+            'castle': 18,
+            'name': 'MEGADETH'
+        },
+
+        {
+            'ceil': 'e3',
+            'level': 86,
+            'castle': 18,
+            'name': 'Прокурор'
+        },
+
+        {
+            'ceil': 'e4',
+            'img': 'cities/6/e4.jpg',
+            'level': 82,
+            'castle': 18,
+            'name': '♦BMW♦'
+        },
+
+        {
+            'ceil': 'd1',
+            'level': 83,
+            'castle': 18,
+            'name': '♦ПСИХИ♦'
+        },
+
+        {
+            'ceil': 'e1',
+            'level': 84,
+            'castle': 19,
+            'name': 'Игорь'
+        },
+
+        {
+            'ceil': 'e2',
+            'question': true
+        }
+
     ]
 };

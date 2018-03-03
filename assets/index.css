@@ -82,6 +82,7 @@
 }
 
 .castle19{
+    background: url('./images/19.png') no-repeat;
     width: 72px;
     height: 72px;
 }
@@ -258,13 +259,13 @@
     height: 23px;
     vertical-align: middle;
     display: inline-block;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, -2px -1px black;
     bottom: 3px;
-    left: -20px;
+    left: 14px;
 }
 
 .castle {
-    background: radial-gradient(closest-corner at 10px 5px , #FFF 0%, transparent 70%), linear-gradient(to bottom, #bc0101, #570305);
+    background: radial-gradient(closest-corner at 10px 5px , #FFF 0%, transparent 46%), linear-gradient(to bottom, #bc0101, #570305);
     border-radius: 100%;
     display: inline-block;
     color: #f1c88d;
@@ -276,7 +277,7 @@
     position: absolute;
     top: 67px;
     left: -23px;
-    text-shadow: 1px 1px 1px silver;
+    text-shadow: 1px 1px 1px #000;
     z-index: 2;
 }
 
@@ -336,4 +337,141 @@
 
 .clickable{
     cursor: pointer;
+}
+
+.blackVeil{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0, .6);
+    z-index: 10;
+}
+
+.outerSpinner{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-top: 3px solid pink;
+    border-bottom: 3px solid pink;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5px;
+    -webkit-animation:spin 4s linear infinite ;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+    animation-direction: reverse;
+    margin: 0 auto;
+}
+
+.innerSpinner{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border-left: 3px solid pink;
+    border-right: 3px solid pink;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    background-color: white;
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.questionMark{
+    background: url('images/question_mark.png') no-repeat;
+    width: 206px;
+    height: 206px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.questionMark.e1{
+    top: 59px;
+    left: 509px;
+}
+.questionMark.e2{
+    top: 112px;
+    left: 618px;
+}
+.questionMark.e3{
+    top: 162px;
+    left: 721px;
+}
+.questionMark.e4{
+    top: 215px;
+    left: 828px;
+}
+.questionMark.d1{
+    top: 111px;
+    left: 407px;
+}
+.questionMark.d2{
+    top: 163px;
+    left: 510px;
+}
+.questionMark.d3{
+    top: 218px;
+    left: 619px;
+}
+.questionMark.d4{
+    top: 267px;
+    left: 722px;
+}
+.questionMark.c1{
+    top: 163px;
+    left: 300px;
+}
+.questionMark.c2{
+    top: 215px;
+    left: 407px;
+}
+.questionMark.c3{
+    top: 268px;
+    left: 511px;
+}
+.questionMark.c4{
+    top: 320px;
+    left: 617px;
+}
+.questionMark.b1{
+    top: 215px;
+    left: 196px;
+}
+.questionMark.b2{
+    top: 267px;
+    left: 301px;
+}
+.questionMark.b3{
+    top: 321px;
+    left: 408px;
+}
+.questionMark.b4{
+    top: 372px;
+    left: 514px;
+}
+.questionMark.a1{
+    top: 269px;
+    left: 92px;
+}
+.questionMark.a2{
+    top: 320px;
+    left: 195px;
+}
+.questionMark.a3{
+    top: 373px;
+    left: 299px;
+}
+.questionMark.a4{
+    top: 426px;
+    left: 406px;
 }

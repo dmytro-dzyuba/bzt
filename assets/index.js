@@ -35,27 +35,33 @@ function open(id){
         var battleGrid = $('<div />').addClass('battleGrid').appendTo('.battlefield');
         for (var n = 0; n < battle.length; n++){
             var ceil = battle[n];
+
             var div = $('<div />').addClass('ceil')
-                .addClass(ceil.ceil)
-                .addClass('castle'+ ceil.castle)
-                .append(
-                    $('<div />').addClass('level').html(ceil.level)
-                )
-                .append(
-                    $('<div />').addClass('castle').html(ceil.castle)
-                )
-                .append(
-                    $('<div />').addClass('name').html(ceil.name)
-                );
-		if (ceil.img != undefined && ceil.img != null){
-		    div.click(function(e){
+                .addClass(ceil.ceil);
+            if (ceil.question != undefined && ceil.question == true){
+                div.addClass('questionMark');
+            } else {
+                div.addClass('castle' + ceil.castle)
+                    .append(
+                        $('<div />').addClass('level').html(ceil.level)
+                    )
+                    .append(
+                        $('<div />').addClass('castle').html(ceil.castle)
+                    )
+                    .append(
+                        $('<div />').addClass('name').html(ceil.name)
+                    );
+                if (ceil.img != undefined && ceil.img != null) {
+                    div.click(function (e) {
                         displayImg($(this).attr('data-img'))
                     })
-                    .attr('data-img', ceil.img)
-                    .addClass('clickable');
-		}
-                div.appendTo(battleGrid);
+                        .attr('data-img', ceil.img)
+                        .addClass('clickable');
+                }
+            }
+            div.appendTo(battleGrid);
         }
+
         $('.back').css('display', 'block');
     }
 }
@@ -66,7 +72,7 @@ function close(){
     $('.battlelist').removeClass('hidden');
 }
 
-function displayImg(img){
+function displayImg(img){appendSpinner();return;
     var el = $('<img />').attr({
         'src': img,
         'class': 'screenshot'
@@ -98,4 +104,12 @@ function displayImg(img){
             })
         }
     });
+}
+
+function appendSpinner(){
+    $('<div />').addClass('blackVeil').append(
+        $('<div />').addClass('outerSpinner').append(
+            $('<div />').addClass('innerSpinner')
+        ).css
+    ).appendTo('body');
 }
