@@ -41,12 +41,12 @@ function open(id){
             if (ceil.question != undefined && ceil.question == true){
                 div.addClass('questionMark');
             } else {
-                div.addClass('castle' + ceil.castle)
+                div.addClass('castle castle' + ceil.castle)
                     .append(
                         $('<div />').addClass('level').html(ceil.level)
                     )
                     .append(
-                        $('<div />').addClass('castle').html(ceil.castle)
+                        $('<div />').addClass('castleLevel').html(ceil.castle)
                     )
                     .append(
                         $('<div />').addClass('name').html(ceil.name)

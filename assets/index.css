@@ -81,52 +81,85 @@
     height: 640px;
 }
 
+.castle{
+    width: 80px;
+    height: 80px;
+    background-color: RGBA(1, 0, 0, .5);
+}
+
 .castle19{
-    background: url('./images/19.png') no-repeat;
-    width: 72px;
-    height: 72px;
+    background: url('./images/castle/19.png') no-repeat;
 }
 
 .castle18{
-    background: url('./images/18.png') no-repeat;
-    width: 72px;
-    height: 72px;
+    background: url('./images/castle/18.png') no-repeat;
 }
 
 .castle17{
-    background: url('./images/17.png') no-repeat;
-    width: 72px;
-    height: 72px;
+    background: url('./images/castle/17.png') no-repeat;
 }
 
 .castle16{
-    background: url('./images/16.png') no-repeat;
-    width: 72px;
-    height: 72px;
+    background: url('./images/castle/16.png') no-repeat;
 }
 
 .castle15{
-    background: url('./images/15.png') no-repeat;
-    width: 72px;
-    height: 72px;
+    background: url('./images/castle/15.png') no-repeat;
 }
 
 .castle14{
-    background: url('./images/14.png') no-repeat;
-    width: 72px;
-    height: 72px;
+    background: url('./images/castle/14.png') no-repeat;
 }
 
 .castle13{
-    background: url('./images/13.png') no-repeat;
-    width: 72px;
-    height: 72px;
+    background: url('./images/castle/13.png') no-repeat;
 }
 
-.castle12, .castle11, .castle10, .castle9, .castle8{
-    background: url('./images/12.png') no-repeat;
-    width: 72px;
-    height: 72px;
+.castle12{
+    background: url('./images/castle/12.png') no-repeat;
+}
+
+.castle11{
+    background: url('./images/castle/11.png') no-repeat;
+}
+
+.castle10{
+    background: url('./images/castle/10.png') no-repeat;
+}
+
+.castle9{
+    background: url('./images/castle/9.png') no-repeat;
+}
+
+.castle8{
+    background: url('./images/castle/8.png') no-repeat;
+}
+
+.castle7{
+    background: url('./images/castle/7.png') no-repeat;
+}
+.castle6{
+    background: url('./images/castle/6.png') no-repeat;
+}
+
+.castle5{
+    background: url('./images/castle/5.png') no-repeat;
+}
+
+.castle4{
+    background: url('./images/castle/4.png') no-repeat;
+}
+
+.castle3{
+    background: url('./images/castle/3.png') no-repeat;
+}
+
+.castle2{
+    background: url('./images/castle/2.png') no-repeat;
+}
+
+.castle1{
+    background: url('./images/castle/1.png') no-repeat;
 }
 
 .a1{
@@ -249,22 +282,23 @@
 }
 
 .level {
-    background: url('images/star.png') no-repeat;
+    background: url(images/star.png) no-repeat;
     position: absolute;
-    color: orange;
+    color: #66361b;
     font-weight: bold;
-    font-family: tahoma, arial;
-    padding-left: 9px;
-    line-height: 23px;
-    height: 23px;
+    font-family: arial;
+    line-height: 27px;
+    height: 27px;
     vertical-align: middle;
     display: inline-block;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, -2px -1px black;
-    bottom: 3px;
-    left: 14px;
+    bottom: 7px;
+    left: -8px;
+    width: 25px;
+    font-size: 11px;
+    text-align: center;
 }
 
-.castle {
+.castleLevel {
     background: radial-gradient(closest-corner at 10px 5px , #FFF 0%, transparent 46%), linear-gradient(to bottom, #bc0101, #570305);
     border-radius: 100%;
     display: inline-block;
@@ -279,6 +313,11 @@
     left: -23px;
     text-shadow: 1px 1px 1px #000;
     z-index: 2;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 17px;
 }
 
 .name {

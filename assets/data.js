@@ -40,6 +40,13 @@
         win: false,
         date: '02.03.2018',
         rate: '2/29'
+    },
+    {
+        id: 7,
+        name: '9 звезд',
+        win: true,
+        date: '09.03.2018',
+        rate: '27/9'
     }
 ];
 
@@ -421,6 +428,69 @@ var maps = {
             'ceil': 'e2',
             'question': true
         }
-
+    ],
+    7: [
+        {
+            'ceil': 'b1',
+            'level': 75,
+            'castle': 15,
+            'name': '.',
+            'id': 187873727
+        },
+        {
+            'ceil': 'c1',
+            'level': 81,
+            'castle': 16,
+            'name': 'У--81'
+        },
+        {
+            'ceil': 'd1',
+            'level': 63,
+            'castle': 12,
+            'name': 'Пророк'
+        },
+        {
+            'ceil': 'e1',
+            'level': 43,
+            'castle': 8,
+            'name': 'настя'
+        },
+        {
+            'ceil': 'c2',
+            'level': 77,
+            'castle': 15,
+            'name': 'Сергей'
+        },
+        {
+            'ceil': 'd2',
+            'level': 81,
+            'castle': 16,
+            'name': '&V@lLeTt@&'
+        },
+        {
+            'ceil': 'e2',
+            'level': 76,
+            'castle': 16,
+            'name': 'Алексей'
+        },
+        {
+            'ceil': 'd3',
+            'level': 76,
+            'castle': 15,
+            'name': '&Вет@ль&'
+        },
+        {
+            'ceil': 'e3',
+            'level': 72,
+            'castle': 14,
+            'name': 'Илья Пророк '
+        },
+        {
+            'ceil': 'e4',
+            'level': 75,
+            'castle': 14,
+            'name': '&Поп@дос&'
+        }
     ]
+
 };
