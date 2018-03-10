@@ -432,6 +432,7 @@ var maps = {
     7: [
         {
             'ceil': 'b1',
+            'img': 'cities/7/b1.jpg',
             'level': 75,
             'castle': 15,
             'name': '.',
@@ -439,54 +440,63 @@ var maps = {
         },
         {
             'ceil': 'c1',
+            'img': 'cities/7/c1.jpg',
             'level': 81,
             'castle': 16,
             'name': 'У--81'
         },
         {
             'ceil': 'd1',
+            'img': 'cities/7/d1.jpg',
             'level': 63,
             'castle': 12,
             'name': 'Пророк'
         },
         {
             'ceil': 'e1',
+            'img': 'cities/7/e1.jpg',
             'level': 43,
             'castle': 8,
             'name': 'настя'
         },
         {
             'ceil': 'c2',
+            'img': 'cities/7/c2.jpg',
             'level': 77,
             'castle': 15,
             'name': 'Сергей'
         },
         {
             'ceil': 'd2',
+            'img': 'cities/7/d2.jpg',
             'level': 81,
             'castle': 16,
             'name': '&V@lLeTt@&'
         },
         {
             'ceil': 'e2',
+            'img': 'cities/7/e2.jpg',
             'level': 76,
             'castle': 16,
             'name': 'Алексей'
         },
         {
             'ceil': 'd3',
+            'img': 'cities/7/d3.jpg',
             'level': 76,
             'castle': 15,
             'name': '&Вет@ль&'
         },
         {
             'ceil': 'e3',
+            'img': 'cities/7/e3.jpg',
             'level': 72,
             'castle': 14,
             'name': 'Илья Пророк '
         },
         {
             'ceil': 'e4',
+            'img': 'cities/7/e4.jpg',
             'level': 75,
             'castle': 14,
             'name': '&Поп@дос&'

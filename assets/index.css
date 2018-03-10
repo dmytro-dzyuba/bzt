@@ -4,6 +4,7 @@
 .main{
     width: 1000px;
     height: 640px;
+    position: relative;
 }
 
 .battlefield{
@@ -370,7 +371,7 @@
     position: absolute;
     top:-10000px;
     left: -10000px;
-    z-index: 3;
+    z-index: 12;
     box-sizing: border-box;
 }
 
@@ -513,4 +514,22 @@
 .questionMark.a4{
     top: 426px;
     left: 406px;
+}
+
+.enlarge{
+    background: rgba(255, 255, 255, .5) url(./images/enlarge.png) no-repeat;
+    width: 72px;
+    height: 72px;
+    bottom: 60px;
+    right: 30px;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 15;
+    border: 2px solid #000;
+    background-position: center;
+    opacity: .5;
+}
+
+.enlarge:hover{
+    opacity: 1;
 }

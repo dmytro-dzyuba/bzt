@@ -72,14 +72,28 @@ function close(){
     $('.battlelist').removeClass('hidden');
 }
 
-function displayImg(img){appendSpinner();return;
+function hideImg(){
+    $('.blackVeil').remove();
+    $('.enlarge').remove();
+    $('.screenshot').remove()
+}
+
+function displayImg(img){
+    appendSpinner();
     var el = $('<img />').attr({
         'src': img,
         'class': 'screenshot'
     }).click(function(){
-        $(this).remove()
+        hideImg();
     })
-    .appendTo('body').load(function() {
+    .appendTo('.main').load(function() {
+        if (!$('.blackVeil').length){
+            return;
+        }
+        $('.outerSpinner').remove();
+
+        $('<a href="' + img + '" target="_blank" class="enlarge" />').appendTo('.main');
+
         var win = $(window);
         if (win.width() < el.width() || win.height() < el.height()) {
             if (el.width() / win.width() > el.height() / win.height()) {
@@ -107,9 +121,13 @@ function displayImg(img){appendSpinner();return;
 }
 
 function appendSpinner(){
+    var margin = parseInt(($(window).height() - 50)/2);
     $('<div />').addClass('blackVeil').append(
         $('<div />').addClass('outerSpinner').append(
             $('<div />').addClass('innerSpinner')
-        ).css
-    ).appendTo('body');
+        ).css('margin-top', margin)
+    ).click(function(){
+        hideImg();
+    })
+    .appendTo('.main');
 }
