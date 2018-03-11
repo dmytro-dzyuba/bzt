@@ -80,48 +80,51 @@ function hideImg(){
 
 function displayImg(img){
     appendSpinner();
-    var el = $('<img />').attr({
+    $('<img />').attr({
         'src': img,
         'class': 'screenshot'
     }).click(function(){
         hideImg();
     })
-    .appendTo('.main').load(function() {
+    .appendTo('.main')
+    .load(function() {
         if (!$('.blackVeil').length){
             return;
         }
         $('.outerSpinner').remove();
 
-        $('<a href="' + img + '" target="_blank" class="enlarge" />').appendTo('.main');
-
-        var win = $(window);
-        if (win.width() < el.width() || win.height() < el.height()) {
-            if (el.width() / win.width() > el.height() / win.height()) {
-                el.css({
-                    'width': '100%',
-                    'left': 0,
-                    'top': 0
-                });
+        var win = $('.main');
+        var el = $(this);
+        var width = el.width();
+        var height = el.height();
+        if (win.width() < width || win.height() < height) {console.log(win.width(), width, win.height(), height);
+            if (width / win.width() > height / win.height()) {
+                height = parseInt((win.width()/width)*el.height());
+                width = win.width();
             } else {
-                el.css({
-                    'height': '100%',
-                    'top': 0,
-                    'left': 0
-                });
+                width = parseInt((win.height()/height)*el.width());
+                height = win.height();
             }
-        } else {
-            var top = parseInt((win.height() - el.height()) / 2);
-            var left = parseInt((win.width() - el.width()) / 2);
-            el.css({
-                'top': top,
-                'left': left
-            })
         }
+        var top = parseInt((win.height() - height)/2);
+        var left = parseInt((win.width() - width)/2);
+
+        el.css({
+            'width': width,
+            'height': height,
+            'left': left,
+            'top': top
+        });
+
+        $('<a href="' + img + '" target="_blank" class="enlarge" />').appendTo('.main').css({
+            top: top + height - 92,
+            left: left + width - 92
+        });
     });
 }
 
 function appendSpinner(){
-    var margin = parseInt(($(window).height() - 50)/2);
+    var margin = parseInt(($('.main').height() - 50)/2);
     $('<div />').addClass('blackVeil').append(
         $('<div />').addClass('outerSpinner').append(
             $('<div />').addClass('innerSpinner')
