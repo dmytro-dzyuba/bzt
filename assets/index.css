@@ -48,10 +48,10 @@
     line-height: 40px;
     height: 40px;
     padding: 0;
-    color: #ffddc3;
-    font-size: 16px;
-    font-family: tahoma;
-    text-shadow: 1px 1px 2px #000;
+    color: #82461e;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
