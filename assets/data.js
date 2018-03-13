@@ -47,6 +47,13 @@
         win: true,
         date: '09.03.2018',
         rate: '27/9'
+    },
+    {
+        id: 8,
+        name: 'Спарта 2017',
+        win: true,
+        date: '13.03.2018',
+        rate: '30/0'
     }
 ];
 
@@ -501,6 +508,87 @@ var maps = {
             'castle': 14,
             'name': '&Поп@дос&'
         }
+    ],
+    8: [
+        {
+            'id': 306825640,
+            'ceil': 'c1',
+            'img': 'cities/8/c1.jpg',
+            'level': 72,
+            'castle': 15,
+            'name': 'Буря'
+        },
+        {
+            'id': '108899920',
+            'ceil': 'b2',
+            'img': 'cities/8/b2.jpg',
+            'level': 78,
+            'castle': 17,
+            'name': 'ПЕРЛЕНГ'
+        },
+        {
+            'id': '85181597',
+            'ceil': 'a3',
+            'img': 'cities/8/a3.jpg',
+            'level': 78,
+            'castle': 16,
+            'name': 'Команданте'
+        },
+        {
+            'id': 448287556,
+            'ceil': 'b3',
+            'img': 'cities/8/b3.jpg',
+            'level': 47,
+            'castle': 8,
+            'name': 'Алпан'
+        },
+        {
+            'id': 249736475,
+            'ceil': 'b4',
+            'img': 'cities/8/b4.jpg',
+            'level': 75,
+            'castle': 15,
+            'name': 'ANUBIS'
+        },
+        {
+            'id': '355908354',
+            'ceil': 'c3',
+            'img': 'cities/8/c3.jpg',
+            'level': 76,
+            'castle': 15,
+            'name': 'БАРИН'
+        },
+        {
+            'id': 5700428,
+            'ceil': 'd2',
+            'img': 'cities/8/d2.jpg',
+            'level': 72,
+            'castle': 14,
+            'name': 'Злой '
+        },
+        {
+            'id': 118976628,
+            'ceil': 'd3',
+            'img': 'cities/8/d3.jpg',
+            'level': 60,
+            'castle': 13,
+            'name': 'Александр'
+        },
+        {
+            'id': 237121198,
+            'ceil': 'd4',
+            'img': 'cities/8/d4.jpg',
+            'level': 68,
+            'castle': 14,
+            'name': 'Олег'
+        },
+        {
+            'id': 134405612,
+            'ceil': 'e3',
+            'img': 'cities/8/e3.jpg',
+            'level': 71,
+            'castle': 16,
+            'name': 'Елисей'
+        }
     ]
-
 };
