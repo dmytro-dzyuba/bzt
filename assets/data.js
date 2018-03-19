@@ -61,70 +61,70 @@ var maps = {
     '1': [
         {
             'ceil': 'c1',
-            'img': 'cities/1/Колёный.png',
+            'img': 'cities/1/c1.jpg',
             'level': 79,
             'castle': 16,
             'name': 'Колёный'
         },
         {
             'ceil': 'd1',
-            'img': 'cities/1/Dizel(Надя).png',
+            'img': 'cities/1/d1.jpg',
             'level': 79,
             'castle': 16,
             'name': 'Dizel'
         },
         {
             'ceil': 'e1',
-            'img': 'cities/1/туктук.png',
+            'img': 'cities/1/e1.jpg',
             'level': 68,
             'castle': 13,
             'name': 'туктук'
         },
         {
             'ceil': 'd2',
-            'img': 'cities/1/ОРЁЛ.png',
+            'img': 'cities/1/d2.jpg',
             'level': 81,
             'castle': 18,
-            'name': 'туктук'
+            'name': 'ОРЁЛ'
         },
         {
             'ceil': 'e2',
-            'img': 'cities/1/С@нек.png',
+            'img': 'cities/1/e2.jpg',
             'level': 75,
             'castle': 15,
             'name': 'С@нек'
         },
         {
             'ceil': 'd3',
-            'img': 'cities/1/Белый.png',
+            'img': 'cities/1/d3.jpg',
             'level': 80,
             'castle': 18,
             'name': 'БеЛыЙ'
         },
         {
             'ceil': 'e3',
-            'img': 'cities/1/Курган.png',
+            'img': 'cities/1/e3.jpg',
             'level': 75,
             'castle': 15,
             'name': 'Курган'
         },
         {
             'ceil': 'c4',
-            'img': 'cities/1/Cool.png',
+            'img': 'cities/1/c4.jpg',
             'level': 78,
             'castle': 16,
             'name': 'Cool'
         },
         {
             'ceil': 'd4',
-            'img': 'cities/1/Злыдень.png',
+            'img': 'cities/1/d4.jpg',
             'level': 80,
             'castle': 16,
             'name': 'Злыдень'
         },
         {
             'ceil': 'e4',
-            'img': 'cities/1/Виктория.png',
+            'img': 'cities/1/e4.jpg',
             'level': 60,
             'castle': 13,
             'name': 'Виктория'
