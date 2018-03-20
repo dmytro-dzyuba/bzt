@@ -54,6 +54,13 @@
         win: true,
         date: '13.03.2018',
         rate: '30/0'
+    },
+    {
+        id: 9,
+        name: 'СаблезубыйДемон',
+        win: true,
+        date: '20.03.2018',
+        rate: '30/16'
     }
 ];
 
@@ -589,6 +596,88 @@ var maps = {
             'level': 71,
             'castle': 16,
             'name': 'Елисей'
+        }
+    ],
+    9: [
+        {
+            'id': 166942279,
+            'ceil': 'c1',
+            'img': 'cities/9/c1.jpg',
+            'level': 77,
+            'castle': 15,
+            'name': 'Наталья'
+        },
+        {
+            'id': 64052937,
+            'ceil': 'd1',
+            'img': 'cities/9/d1.jpg',
+            'level': 82,
+            'castle': 16,
+            'name': 'Злыдень ™SD™'
+        },
+        {
+            'id': 289669561,
+            'ceil': 'e4',
+            'img': 'cities/9/e4.jpg',
+            'level': 60,
+            'castle': 13,
+            'name': 'ЗлоСцуко™SD™'
+        },
+        {
+            'id': 241183281,
+            'ceil': 'e1',
+            'img': 'cities/9/e1.jpg',
+            'level': 77,
+            'castle': 15,
+            'name': 'Курган™SD™'
+        },
+        {
+            'id': 114446531,
+            'ceil': 'd2',
+            'img': 'cities/9/d2.jpg',
+            'level': 80,
+            'castle': 18,
+            'name': 'БеЛыЙ-71'
+        },
+        {
+            'id': 10183828,
+            'ceil': 'e2',
+            'img': 'cities/9/e2.jpg',
+            'level': 67,
+            'castle': 13,
+            'name': 'Roni™SD™'
+        },
+        {
+            'id': 234778336,
+            'ceil': 'e3',
+            'img': 'cities/9/e3.jpg',
+            'level': 76,
+            'castle': 15,
+            'name': 'C@HEk™SD™'
+        },
+        {
+            'id': 52667828,
+            'ceil': 'd3',
+            'img': 'cities/9/d3.jpg',
+            'level': 80,
+            'castle': 16,
+            'name': 'Колёный™SD™'
+        },
+        {
+            'id': 39779900,
+            'ceil': 'c4',
+            'img': 'cities/9/c4.jpg',
+            'level': 80,
+            'castle': 16,
+            'name': 'COOL™SD™'
+        },
+        {
+            'id': 141297863,
+            'ceil': 'd4',
+            'img': 'cities/9/d4.jpg',
+            'level': 80,
+            'castle': 16,
+            'name': 'Dizel™SD™'
         }
     ]
 };
