@@ -38,7 +38,9 @@ function open(id){
 
             var div = $('<div />').addClass('ceil')
                 .addClass(ceil.ceil);
-            if (ceil.question != undefined && ceil.question == true){
+            if (ceil.trap != undefined && ceil.trap == true){
+                div.addClass('trap');
+            } else if (ceil.question != undefined && ceil.question == true){
                 div.addClass('questionMark');
             } else {
                 div.addClass('castle castle' + ceil.castle)

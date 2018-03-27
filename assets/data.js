@@ -61,7 +61,14 @@
         win: true,
         date: '20.03.2018',
         rate: '30/27'
-    }
+    },
+    {
+        id: 10,
+        name: 'ЦыпаГриль',
+        win: false,
+        date: '27.03.2018',
+        rate: '21/21'
+    },
 ];
 
 var maps = {
@@ -678,6 +685,94 @@ var maps = {
             'level': 80,
             'castle': 16,
             'name': 'Dizel™SD™'
+        }
+    ],
+    10: [
+        {
+            'id': 187130394,
+            'ceil': 'b4',
+            'img': 'cities/10/b4.jpg',
+            'level': 66,
+            'castle': 12,
+            'name': '♠Владимир77♠'
+        },
+        {
+            'id': 183788901,
+            'ceil': 'c4',
+            'img': 'cities/10/c4.jpg',
+            'level': 89,
+            'castle': 19,
+            'name': '♠Zaporozhye♠'
+        },
+        {
+            'id': 326914408,
+            'ceil': 'c3',
+            'img': 'cities/10/c3.jpg',
+            'level': 65,
+            'castle': 12,
+            'name': '♠SoNY♠'
+        },
+        {
+            'id': 289498783,
+            'ceil': 'c2',
+            'img': 'cities/10/c2.jpg',
+            'level': 64,
+            'castle': 12,
+            'name': '♠Рокот♠'
+        },
+        {
+            'id': 398068888,
+            'ceil': 'd4',
+            'img': 'cities/10/d4.jpg',
+            'level': 66,
+            'castle': 12,
+            'name': '♠_АнгелЗла_♠'
+        },
+        {
+            'id': 307642157,
+            'ceil': 'd1',
+            'img': 'cities/10/d1.jpg',
+            'level': 64,
+            'castle': 12,
+            'name': '♠Бабай♠'
+        },
+        {
+            'id': 226239337,
+            'ceil': 'e4',
+            'img': 'cities/10/e4.jpg',
+            'level': 51,
+            'castle': 9,
+            'name': '♠Цыпачка))♠'
+        },
+        {
+            'id': 430772383,
+            'ceil': 'e3',
+            'img': 'cities/10/e3.jpg',
+            'level': 63,
+            'castle': 12,
+            'name': '♠StalinGraD♠'
+        },
+        {
+            'id': 177065656,
+            'ceil': 'e2',
+            'level': 86,
+            'castle': 18,
+            'name': '♠Rodina♠'
+        },
+        {
+            'id': 174125343,
+            'ceil': 'd3',
+            'level': 92,
+            'castle': 19,
+            'name': '♠ Робин Гуд♠'
+        },
+        {
+            'ceil': 'e1',
+            'trap': true
+        },
+        {
+            'ceil': 'd2',
+            'trap': true
         }
     ]
 };

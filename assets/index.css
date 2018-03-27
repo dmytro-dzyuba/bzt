@@ -165,121 +165,121 @@
 
 .a1{
     position: absolute;
-    top: 325px;
-    left: 154px;
+    top: 315px;
+    left: 139px;
 }
 
 .a2{
     position: absolute;
-    top: 377px;
-    left: 257px;
+    top: 317px;
+    left: 232px;
 }
 
 .a3{
     position: absolute;
-    top: 431px;
-    left: 364px;
+    top: 421px;
+    left: 349px;
 }
 
 .a4{
     position: absolute;
-    top: 482px;
-    left: 469px;
+    top: 472px;
+    left: 454px;
 }
 .b1{
     position: absolute;
-    top: 273px;
-    left: 259px;
+    top: 263px;
+    left: 244px;
 }
 
 .b2{
     position: absolute;
-    top: 325px;
-    left: 364px;
+    top: 315px;
+    left: 349px;
 }
 
 .b3{
     position: absolute;
-    top: 378px;
-    left: 469px;
+    top: 368px;
+    left: 454px;
 }
 
 .b4{
     position: absolute;
-    top: 429px;
-    left: 573px;
+    top: 419px;
+    left: 558px;
 }
 
 .c1{
     position: absolute;
-    top: 219px;
-    left: 363px;
+    top: 209px;
+    left: 348px;
 }
 
 .c2{
     position: absolute;
-    top: 271px;
-    left: 468px;
+    top: 261px;
+    left: 453px;
 }
 
 .c3{
     position: absolute;
-    top: 324px;
-    left: 574px;
+    top: 314px;
+    left: 559px;
 }
 
 .c4{
     position: absolute;
-    top: 377px;
-    left: 680px;
+    top: 367px;
+    left: 665px;
 }
 
 .d1{
     position: absolute;
-    top: 168px;
-    left: 468px;
+    top: 158px;
+    left: 453px;
 }
 
 .d2{
     position: absolute;
-    top: 219px;
-    left: 572px;
+    top: 209px;
+    left: 557px;
 }
 
 .d3{
     position: absolute;
-    top: 272px;
-    left: 679px;
+    top: 262px;
+    left: 664px;
 }
 
 .d4{
     position: absolute;
-    top: 324px;
-    left: 785px;
+    top: 314px;
+    left: 770px;
 }
 
 .e1{
     position: absolute;
-    top: 115px;
-    left: 574px;
+    top: 105px;
+    left: 544px;
 }
 
 .e2{
     position: absolute;
-    top: 167px;
-    left: 679px;
+    top: 157px;
+    left: 664px;
 }
 
 .e3{
     position: absolute;
-    top: 221px;
+    top: 196px;
     left: 783px;
 }
 
 .e4{
     position: absolute;
-    top: 272px;
-    left: 889px;
+    top: 262px;
+    left: 874px;
 }
 
 .level {
@@ -534,4 +534,10 @@
 
 .enlarge:hover{
     opacity: 1;
+}
+
+.trap{
+    background: url('./images/trap.png') no-repeat;
+    width: 90px;
+    height: 90px;
 }
