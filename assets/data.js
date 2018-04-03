@@ -69,6 +69,13 @@
         date: '27.03.2018',
         rate: '21/21'
     },
+    {
+        id: 11,
+        name: 'СаблезубыйДемон2',
+        win: true,
+        date: '03.04.2018',
+        rate: '24/6'
+    }
 ];
 
 var maps = {
@@ -773,6 +780,88 @@ var maps = {
         {
             'ceil': 'd2',
             'trap': true
+        }
+    ],
+    11: [
+        {
+            'id': 377261884,
+            'ceil': 'b1',
+            'level': 64,
+            'castle': 12,
+            'img': 'cities/11/b1.jpg',
+            'name': 'Алиса™SD™'
+        },
+        {
+            'id': 244814783,
+            'ceil': 'c1',
+            'level': 79,
+            'castle': 16,
+            'img': 'cities/11/c1.jpg',
+            'name': 'КотХикка™SD'
+        },
+        {
+            'id': 169382317,
+            'ceil': 'd1',
+            'level': 62,
+            'castle': 12,
+            'img': 'cities/11/d1.jpg',
+            'name': 'Наталья'
+        },
+        {
+            'id': 253042951,
+            'ceil': 'e1',
+            'level': 69,
+            'castle': 14,
+            'owner': true,
+            'img': 'cities/11/e1.jpg',
+            'name': 'Дизель™SD™'
+        },
+        {
+            'id': 69782403,
+            'ceil': 'c2',
+            'level': 74,
+            'castle': 14,
+            'img': 'cities/11/c2.jpg',
+            'name': 'Решала™SD2™'
+        },
+        {
+            'id': 161001307,
+            'ceil': 'd2',
+            'level': 83,
+            'castle': 17,
+            'name': ' Архангел'
+        },
+        {
+            'id': 69542414,
+            'ceil': 'e2',
+            'level': 66,
+            'castle': 13,
+            'img': 'cities/11/e2.jpg',
+            'name': 'Pepper™SD™'
+        },
+        {
+            'id': 239065290,
+            'ceil': 'd3',
+            'level': 73,
+            'castle': 15,
+            'img': 'cities/11/d3.jpg',
+            'name': 'Вован↔™SD'
+        },
+        {
+            'id': 47120369,
+            'ceil': 'e3',
+            'level': 83,
+            'castle': 17,
+            'img': 'cities/11/e3.jpg',
+            'name': 'Адвокат™SD™'
+        },
+        {
+            'id': 84814955,
+            'ceil': 'e4',
+            'level': 69,
+            'castle': 13,
+            'img': 'cities/11/e4.jpg',
+            'name': 'ИванSD'
         }
     ]
 };
