@@ -63,7 +63,9 @@ function open(id){
                 if (ceil.id != undefined){
                     var url = 'https://vk.com/id' + ceil.id;
                     div.append(
-                        $('<a href="' + url + '" class="user" target="_parent" />').text('i')
+                        $('<a href="' + url + '" class="user" target="_top" />').text('i').click(function(e){
+                            e.stopPropagation();
+                        })
                     );
                 }
 
