@@ -53,6 +53,20 @@ function open(id){
                     .append(
                         $('<div />').addClass('name').html(ceil.name)
                     );
+
+                if (ceil.owner != undefined && ceil.owner == true){
+                    div.append(
+                        $('<div />').addClass('crown')
+                    );
+                }
+
+                if (ceil.id != undefined){
+                    var url = 'https://vk.com/id' + ceil.id;
+                    div.append(
+                        $('<a href="' + url + '" class="user" />').text('i')
+                    );
+                }
+
                 if (ceil.img != undefined && ceil.img != null) {
                     div.click(function (e) {
                         displayImg($(this).attr('data-img'))

@@ -75,6 +75,13 @@
         win: true,
         date: '03.04.2018',
         rate: '24/6'
+    },
+    {
+        id: 12,
+        name: '9 звезд',
+        win: true,
+        date: '17.04.2018',
+        rate: '30/18'
     }
 ];
 
@@ -862,6 +869,89 @@ var maps = {
             'castle': 13,
             'img': 'cities/11/e4.jpg',
             'name': 'ИванSD'
+        }
+    ],
+    12: [
+        {
+            'id': 132842340,
+            'ceil': 'e4',
+            'level': 76,
+            'castle': 15,
+            'img': 'cities/12/e4.jpg',
+            'name': '&Поп@дос&',
+            'owner': true,
+        },
+        {
+            'id': 187873727,
+            'ceil': 'b1',
+            'level': 76,
+            'castle': 15,
+            'img': 'cities/12/b1.jpg',
+            'name': 'Игорь'
+        },
+        {
+            'id': 161076994,
+            'ceil': 'c1',
+            'level': 82,
+            'castle': 16,
+            'img': 'cities/12/c1.jpg',
+            'name': '&V@lLeTt@&'
+        },
+        {
+            'id': 166281741,
+            'ceil': 'd1',
+            'level': 65,
+            'castle': 13,
+            'img': 'cities/12/d1.jpg',
+            'name': 'Odessa'
+        },
+        {
+            'id': 210318566,
+            'ceil': 'e1',
+            'level': 43,
+            'castle': 8,
+            'img': 'cities/12/e1.jpg',
+            'name': '9 звёзд'
+        },
+        {
+            'id': 27437383,
+            'ceil': 'c2',
+            'level': 77,
+            'castle': 15,
+            'img': 'cities/12/c2.jpg',
+            'name': '&Вет@ль&'
+        },
+        {
+            'id': 155613390,
+            'ceil': 'd2',
+            'level': 83,
+            'castle': 17,
+            'img': 'cities/12/d2.jpg',
+            'name': 'У--83'
+        },
+        {
+            'id': 312176192,
+            'ceil': 'e2',
+            'level': 73,
+            'castle': 14,
+            'img': 'cities/12/e2.jpg',
+            'name': 'Илья Пророк '
+        },
+        {
+            'id': 83120306,
+            'ceil': 'e3',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/12/e3.jpg',
+            'name': 'Алексей'
+        },
+        {
+            'id': 51488502,
+            'ceil': 'd3',
+            'level': 77,
+            'castle': 15,
+            'img': 'cities/12/d3.jpg',
+            'name': 'Сергей'
         }
     ]
 };
