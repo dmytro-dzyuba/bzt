@@ -82,6 +82,13 @@
         win: true,
         date: '17.04.2018',
         rate: '30/18'
+    },
+    {
+        id: 13,
+        name: 'Крылатые ангелы',
+        win: true,
+        date: '22.05.2018',
+        rate: '12/12'
     }
 ];
 
@@ -953,5 +960,79 @@ var maps = {
             'img': 'cities/12/d3.jpg',
             'name': 'Сергей'
         }
+    ],
+    13: [
+        {
+            'id': 154353179,
+            'ceil': 'b1',
+            'level': 77,
+            'castle': 16,
+            'img': 'cities/13/b1.jpg',
+            'name': 'простор'
+        },
+        {
+            'id': 255277094,
+            'ceil': 'c2',
+            'level': 73,
+            'castle': 14,
+            'img': 'cities/13/c2.jpg',
+            'name': '100% ОТОМЩУ!'
+        },
+        {
+            'id': 113204305,
+            'ceil': 'd3',
+            'level': 77,
+            'castle': 16,
+            'img': 'cities/13/d3.jpg',
+            'name': '&WA&Фарида'
+        },
+        {
+            'id': 7172162,
+            'ceil': 'e4',
+            'level': 77,
+            'castle': 15,
+            'img': 'cities/13/e4.jpg',
+            'name': '&WA& SVETIK'
+        },
+        {
+            'id': 204703853,
+            'ceil': 'c1',
+            'level': 85,
+            'castle': 17,
+            'name': '&WA&СамареЦ'
+        },
+        {
+            'id': 29494666,
+            'ceil': 'd2',
+            'level': 88,
+            'castle': 18,
+            'name': 'Холоффэйм'
+        },
+        {
+            'id': 355523,
+            'ceil': 'e3',
+            'level': 77,
+            'castle': 17,
+            'name': 'ZeS'
+        },
+        {
+            'ceil': 'd1',
+            'question': true
+        },
+        {
+            'id': 12941187,
+            'ceil': 'e1',
+            'level': 62,
+            'castle': 12,
+            'name': '&WA&Дмитрий'
+        },
+        {
+            'id': 7172162,
+            'ceil': 'e2',
+            'level': 70,
+            'castle': 14,
+            'name': '&WA&Денис',
+            'owner': true
+        },
     ]
 };
