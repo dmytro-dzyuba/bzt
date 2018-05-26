@@ -89,6 +89,13 @@
         win: true,
         date: '22.05.2018',
         rate: '12/12'
+    },
+    {
+        id: 14,
+        name: 'Клан МилеDи',
+        win: true,
+        date: '26.05.2018',
+        rate: '30/6'
     }
 ];
 
@@ -1034,5 +1041,88 @@ var maps = {
             'name': '&WA&Денис',
             'owner': true
         },
-    ]
+    ],
+
+    14: [
+        {
+            'id': 275702061,
+            'ceil': 'b1',
+            'level': 74,
+            'castle': 15,
+            'img': 'cities/14/b1.jpg',
+            'name': 'Pistalet КлМ'
+        },
+        {
+            'id': 289685989,
+            'ceil': 'c1',
+            'level': 82,
+            'castle': 16,
+            'img': 'cities/14/c1.jpg',
+            'name': 'голубиКлМ'
+        },
+        {
+            'id': 213899092,
+            'ceil': 'd1',
+            'level': 72,
+            'castle': 14,
+            'img': 'cities/14/d1.jpg',
+            'name': 'Димон КлМ'
+        },
+        {
+            'id': 297555311,
+            'ceil': 'e1',
+            'level': 63,
+            'castle': 12,
+            'img': 'cities/14/e1.jpg',
+            'name': 'Владимир КлМ'
+        },
+        {
+            'id': 267685182,
+            'ceil': 'c2',
+            'level': 77,
+            'castle': 15,
+            'img': 'cities/14/c2.jpg',
+            'name': 'МилеDи КлМ'
+        },
+        {
+            'id': 177488981,
+            'ceil': 'd2',
+            'level': 80,
+            'castle': 16,
+            'img': 'cities/14/d2.jpg',
+            'name': 'Алексей КлМ'
+        },
+        {
+            'id': 221417423,
+            'ceil': 'e2',
+            'level': 73,
+            'castle': 14,
+            'img': 'cities/14/e2.jpg',
+            'name': 'Вя4еслав КлМ'
+        },
+        {
+            'id': 204333923,
+            'ceil': 'd3',
+            'level': 73,
+            'castle': 15,
+            'img': 'cities/14/d3.jpg',
+            'name': 'Демон КлМ'
+        },
+        {
+            'id': 139072782,
+            'ceil': 'e3',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/14/e3.jpg',
+            'name': '&Добрый КлМ&'
+        },
+        {
+            'id': 997412,
+            'ceil': 'e4',
+            'level': 74,
+            'castle': 14,
+            'img': 'cities/14/e4.jpg',
+            'name': 'ДаоПесдынКлМ'
+        }
+        ]
 };
