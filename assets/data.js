@@ -96,6 +96,13 @@
         win: true,
         date: '26.05.2018',
         rate: '30/6'
+    },
+    {
+        id: 15,
+        name: 'БОЕВАЯ ЭЛИТА',
+        win: true,
+        date: '29.05.2018',
+        rate: '30/30'
     }
 ];
 
@@ -1124,5 +1131,92 @@ var maps = {
             'img': 'cities/14/e4.jpg',
             'name': 'ДаоПесдынКлМ'
         }
-        ]
+        ],
+    15: [
+        {
+            'id': 339174248,
+            'ceil': 'e1',
+            'level': 71,
+            'castle': 13,
+            'img': 'cities/15/e1.jpg',
+            'name': 'John Wick'
+        },
+        {
+            'id': 211628600,
+            'ceil': 'e2',
+            'level': 84,
+            'castle': 17,
+            'img': 'cities/15/e2.jpg',
+            'name': 'Градхерсон'
+        },
+        {
+            'id': 3462991,
+            'ceil': 'e3',
+            'level': 80,
+            'castle': 16,
+            'img': 'cities/15/e3.jpg',
+            'name': 'Палыч'
+        },
+        {
+            'id': 189542387,
+            'ceil': 'e4',
+            'level': 73,
+            'castle': 14,
+            'img': 'cities/15/e4.jpg',
+            'name': '&Про100Царь&'
+        },
+        {
+            'id': 166601573,
+            'ceil': 'd1',
+            'level': 88,
+            'castle': 18,
+            'img': 'cities/15/d1.jpg',
+            'name': 'Серж VS',
+            'owner': true
+        },
+        {
+            'id': 21073210,
+            'ceil': 'd2',
+            'level': 80,
+            'castle': 16,
+            'img': 'cities/15/d2.jpg',
+            'name': 'ДРЫЩ'
+        },
+        {
+            'id': 49792503,
+            'ceil': 'c1',
+            'level': 79,
+            'castle': 15,
+            'img': 'cities/15/c1.jpg',
+            'name': 'GASHAN'
+        },
+        {
+            'id': 91322612,
+            'ceil': 'c4',
+            'level': 78,
+            'castle': 15,
+            'img': 'cities/15/c4.jpg',
+            'name': '◄ФУЛЛ ХАУС►'
+        },
+        {
+            'id': 201069013,
+            'ceil': 'b2',
+            'level': 75,
+            'castle': 15,
+            'img': 'cities/15/b2.jpg',
+            'name': '©ВАРЯГЪ'
+        },
+        {
+            'id': 231747710,
+            'ceil': 'b3',
+            'level': 75,
+            'castle': 14,
+            'img': 'cities/15/b3.jpg',
+            'name': 'Виталий'
+        },
+        {
+            'ceil': 'd4',
+            'trap': true
+        }
+    ]
 };
