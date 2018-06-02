@@ -103,6 +103,13 @@
         win: true,
         date: '29.05.2018',
         rate: '30/30'
+    },
+    {
+        id: 16,
+        name: 'Белые Ночи в СПб',
+        win: true,
+        date: '02.06.2018',
+        rate: '30/5'
     }
 ];
 
@@ -1217,6 +1224,88 @@ var maps = {
         {
             'ceil': 'd4',
             'trap': true
+        }
+    ],
+    16: [
+        {
+            'id': 327877417,
+            'ceil': 'e1',
+            'level': 64,
+            'castle': 13,
+            'img': 'cities/16/e1.jpg',
+            'name': 'Руслан'
+        },
+        {
+            'id': 4879535,
+            'ceil': 'e2',
+            'level': 55,
+            'castle': 12,
+            'img': 'cities/16/e2.jpg',
+            'name': 'Виталий'
+        },
+        {
+            'id': 135291296,
+            'ceil': 'e3',
+            'level': 77,
+            'castle': 17,
+            'img': 'cities/16/e3.jpg',
+            'name': 'Южн.Централ'
+        },
+        {
+            'id': 145457237,
+            'ceil': 'e4',
+            'level': 68,
+            'castle': 15,
+            'img': 'cities/16/e4.jpg',
+            'name': 'Иван'
+        },
+        {
+            'id': 225934600,
+            'ceil': 'd1',
+            'level': 74,
+            'castle': 16,
+            'img': 'cities/16/d1.jpg',
+            'name': 'Джери Ли'
+        },
+        {
+            'id': 17235330,
+            'ceil': 'd2',
+            'level': 78,
+            'castle': 16,
+            'img': 'cities/16/d2.jpg',
+            'name': 'Алексей'
+        },
+        {
+            'id': 101951230,
+            'ceil': 'd3',
+            'level': 68,
+            'castle': 15,
+            'img': 'cities/16/d3.jpg',
+            'name': 'Дмитрий'
+        },
+        {
+            'id': 57398688,
+            'ceil': 'c1',
+            'level': 15,
+            'castle': 75,
+            'img': 'cities/16/c1.jpg',
+            'name': 'бультерьер'
+        },
+        {
+            'id': 243013963,
+            'ceil': 'c2',
+            'level': 14,
+            'castle': 69,
+            'img': 'cities/16/c2.jpg',
+            'name': 'Ник'
+        },
+        {
+            'id': 301232803,
+            'ceil': 'b1',
+            'level': 71,
+            'castle': 15,
+            'img': 'cities/16/b1.jpg',
+            'name': 'Николай'
         }
     ]
 };
