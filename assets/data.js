@@ -1286,16 +1286,16 @@ var maps = {
         {
             'id': 57398688,
             'ceil': 'c1',
-            'level': 15,
-            'castle': 75,
+            'level': 75,
+            'castle': 15,
             'img': 'cities/16/c1.jpg',
             'name': 'бультерьер'
         },
         {
             'id': 243013963,
             'ceil': 'c2',
-            'level': 14,
-            'castle': 69,
+            'level': 69,
+            'castle': 14,
             'img': 'cities/16/c2.jpg',
             'name': 'Ник'
         },
