@@ -110,6 +110,13 @@
         win: true,
         date: '02.06.2018',
         rate: '30/5'
+    },
+    {
+        id: 17,
+        name: 'ПИСЕЦВАМ',
+        win: true,
+        date: '05.06.2018',
+        rate: '27/10'
     }
 ];
 
@@ -1307,5 +1314,87 @@ var maps = {
             'img': 'cities/16/b1.jpg',
             'name': 'Николай'
         }
+    ],
+    17: [
+        {
+            'id': 141651120,
+            'ceil': 'e1',
+            'level': 68,
+            'castle': 13,
+            'img': 'cities/17/e1.jpg',
+            'name': 'НАХУЙсПЛЯЖА®'
+        },
+        {
+            'id': 267047175,
+            'ceil': 'e2',
+            'level': 79,
+            'castle': 15,
+            'img': 'cities/17/e2.jpg',
+            'name': ' Січ '
+        },
+        {
+            'id': 155166189,
+            'ceil': 'e3',
+            'level': 86,
+            'castle': 17,
+            'img': 'cities/17/e3.jpg',
+            'name': '®☼Argentum®'
+        },
+        {
+            'id': 90443879,
+            'ceil': 'e4',
+            'level': 69,
+            'castle': 13,
+            'img': 'cities/17/e4.jpg',
+            'name': '®ВИННИ-ПУХ®'
+        },
+        {
+            'id': 290736372,
+            'ceil': 'd1',
+            'level': 79,
+            'castle': 15,
+            'img': 'cities/17/d1.jpg',
+            'name': '®МАКСИМУС®'
+        },
+        {
+            'id': 155335311,
+            'ceil': 'd2',
+            'level': 85,
+            'castle': 18,
+            'img': 'cities/17/d2.jpg',
+            'name': '®адВидеть®'
+        },
+        {
+            'id': 288689939,
+            'ceil': 'd3',
+            'level': 75,
+            'castle': 14,
+            'img': 'cities/17/d3.jpg',
+            'name': '®АЛЕКСЕЙ®'
+        },
+        {
+            'id': 176890989,
+            'ceil': 'c1',
+            'level': 84,
+            'castle': 17,
+            'img': 'cities/17/c1.jpg',
+            'name': '®SПАРTAНЕЦ®'
+        },
+        {
+            'id': 255644558,
+            'ceil': 'c2',
+            'level': 74,
+            'castle': 14,
+            'img': 'cities/17/c2.jpg',
+            'name': 'АКУНА®МАТАТА'
+        },
+        {
+            'id': 354217748,
+            'ceil': 'b1',
+            'level': 69,
+            'castle': 14,
+            'img': 'cities/17/b1.jpg',
+            'name': 'Белый Орёл☻'
+        },
     ]
 };
