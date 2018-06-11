@@ -117,6 +117,13 @@
         win: true,
         date: '05.06.2018',
         rate: '27/10'
+    },
+    {
+        id: 18,
+        name: 'SEVEROVOLK',
+        win: true,
+        date: '11.06.2018',
+        rate: '29/10'
     }
 ];
 
@@ -1395,6 +1402,89 @@ var maps = {
             'castle': 14,
             'img': 'cities/17/b1.jpg',
             'name': 'Белый Орёл☻'
+        },
+    ],
+    18: [
+        {
+            'id': 181036663,
+            'ceil': 'd2',
+            'level': 85,
+            'castle': 17,
+            'img': 'cities/18/1.jpg',
+            'name': 'SV_Вiк-TOR☼'
+        },
+        {
+            'id': 72363202,
+            'ceil': 'e2',
+            'level': 77,
+            'castle': 15,
+            'img': 'cities/18/2.jpg',
+            'name': 'SV Камелот☼'
+        },
+        {
+            'id': 275771059,
+            'ceil': 'e4',
+            'level': 73,
+            'castle': 14,
+            'img': 'cities/18/3.jpg',
+            'name': 'SV Лапа☼░'
+        },
+        {
+            'id': 301500309,
+            'ceil': 'c1',
+            'level': 78,
+            'castle': 15,
+            'owner': true,
+            'img': 'cities/18/4.jpg',
+            'name': 'SV Марго☼░'
+        },
+        {
+            'id': 236720524,
+            'ceil': 'e1',
+            'level': 63,
+            'castle': 13,
+            'img': 'cities/18/5.jpg',
+            'name': 'SV Алёна☼'
+        },
+        {
+            'id': 140107650,
+            'ceil': 'e3',
+            'level': 78,
+            'castle': 15,
+            'img': 'cities/18/6.jpg',
+            'name': 'SV Алекс ☼'
+        },
+        {
+            'id': 196414740,
+            'ceil': 'd3',
+            'level': 74,
+            'castle': 14,
+            'img': 'cities/18/7.jpg',
+            'name': 'SV Сашок ☼░'
+        },
+        {
+            'id': 65660240,
+            'ceil': 'd1',
+            'level': 78,
+            'castle': 15,
+            'img': 'cities/18/8.jpg',
+            'name': 'SV Лола☼░'
+        },
+        {
+            'id': 178358056,
+            'ceil': 'b1',
+            'level': 74,
+            'castle': 14,
+            'img': 'cities/18/9.jpg',
+            'name': 'SV Марат☼░'
+        },
+        {
+            'id': 253653239,
+            'ceil': 'c2',
+            'level': 78,
+            'castle': 15,
+            'img': 'cities/18/10.jpg',
+            'name': 'SV Илья'
         },
     ]
 };
