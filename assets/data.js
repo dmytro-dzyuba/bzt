@@ -122,8 +122,15 @@
         id: 18,
         name: 'SEVEROVOLK',
         win: true,
-        date: '11.06.2018',
+        date: '09.06.2018',
         rate: '29/10'
+    },
+    {
+        id: 19,
+        name: 'Думай Головой',
+        win: true,
+        date: '12.06.2018',
+        rate: '30/3'
     }
 ];
 
@@ -1485,6 +1492,89 @@ var maps = {
             'castle': 15,
             'img': 'cities/18/10.jpg',
             'name': 'SV Илья'
+        }
+    ],
+    19: [
+        {
+            'id': 157445236,
+            'ceil': 'e1',
+            'level': 74,
+            'castle': 14,
+            'img': 'cities/19/e1.jpg',
+            'name': '® Red ®'
+        },
+        {
+            'id': 176656336,
+            'ceil': 'e2',
+            'level': 76,
+            'castle': 16,
+            'img': 'cities/19/e2.jpg',
+            'name': '® Roma ®'
+        },
+        {
+            'id': 166473897,
+            'ceil': 'e3',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/19/e3.jpg',
+            'name': ' ® 907  ®'
+        },
+        {
+            'id': 20627179,
+            'ceil': 'e4',
+            'level': 78,
+            'castle': 15,
+            'img': 'cities/19/e4.jpg',
+            'name': ' ®MEFISTO ®'
+        },
+        {
+            'id': 203933817,
+            'ceil': 'd2',
+            'level': 74,
+            'castle': 14,
+            'img': 'cities/19/d2.jpg',
+            'name': '®добряк®'
+        },
+        {
+            'id': 245879805,
+            'ceil': 'd3',
+            'level': 85,
+            'castle': 18,
+            'img': 'cities/19/d3.jpg',
+            'name': '▓BMW  B∑R'
+        },
+        {
+            'id': 101707495,
+            'ceil': 'd4',
+            'level': 70,
+            'castle': 14,
+            'img': 'cities/19/d4.jpg',
+            'name': '®ВикТор®'
+        },
+        {
+            'id': 63883322,
+            'ceil': 'c3',
+            'level': 73,
+            'castle': 14,
+            'img': 'cities/19/c3.jpg',
+            'name': '®Ал@сити® '
+        },
+        {
+            'id': 224424550,
+            'ceil': 'c4',
+            'level': 85,
+            'castle': 17,
+            'img': 'cities/19/c4.jpg',
+            'name': ' ® Олег ®'
+        },
+        {
+            'id': 205341414,
+            'ceil': 'b4',
+            'level': 71,
+            'castle': 14,
+            'img': 'cities/19/b4.jpg',
+            'name': '® Hamster ®',
+            'owner': true
         },
     ]
 };
