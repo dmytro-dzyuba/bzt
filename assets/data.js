@@ -131,7 +131,16 @@
         win: true,
         date: '12.06.2018',
         rate: '30/3'
-    }
+    },
+    {
+        id: 20,
+        name: 'РoССиЯ ВeЛuКaЯ',
+        win: true,
+        date: '18.06.2018',
+        rate: '30/12'
+    },
+
+
 ];
 
 var maps = {
@@ -1575,6 +1584,89 @@ var maps = {
             'img': 'cities/19/b4.jpg',
             'name': '® Hamster ®',
             'owner': true
+        },
+    ],
+    20: [
+        {
+            'id': 234025747,
+            'ceil': 'e1',
+            'level': 72,
+            'castle': 14,
+            'img': 'cities/20/e1.jpg',
+            'name': '@ NiK0 @'
+        },
+        {
+            'id': 17769544,
+            'ceil': 'e2',
+            'level': 84,
+            'castle': 17,
+            'img': 'cities/20/e2.jpg',
+            'name': 'Teōtīhuacān@'
+        },
+        {
+            'id': 134057508,
+            'ceil': 'e3',
+            'level': 78,
+            'castle': 16,
+            'img': 'cities/20/e3.jpg',
+            'name': '@СЕРГОФАН@'
+        },
+        {
+            'id': 362998212,
+            'ceil': 'e4',
+            'level': 58,
+            'castle': 10,
+            'img': 'cities/20/e4.jpg',
+            'name': '@DEXTER@'
+        },
+        {
+            'id': 35003499,
+            'ceil': 'd2',
+            'level': 75,
+            'castle': 15,
+            'img': 'cities/20/d2.jpg',
+            'name': '"Lim koks"'
+        },
+        {
+            'id': 33170374,
+            'ceil': 'd3',
+            'level': 90,
+            'castle': 19,
+            'img': 'cities/20/d3.jpg',
+            'name': '♦♫Маугли'
+        },
+        {
+            'id': 30067566,
+            'ceil': 'd4',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/20/d4.jpg',
+            'name': '@EVGENIY@',
+            'owner': true
+        },
+        {
+            'id': 83234807,
+            'ceil': 'c3',
+            'level': 79,
+            'castle': 15,
+            'img': 'cities/20/c3.jpg',
+            'name': '@ SaeL @'
+        },
+        {
+            'id': 47410453,
+            'ceil': 'c4',
+            'level': 83,
+            'castle': 18,
+            'img': 'cities/20/c4.jpg',
+            'name': '♪Гит@рист♫'
+        },
+        {
+            'id': 352872301,
+            'ceil': 'b4',
+            'level': 70,
+            'castle': 13,
+            'img': 'cities/20/b4.jpg',
+            'name': 'в@дюс'
         },
     ]
 };
