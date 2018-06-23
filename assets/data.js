@@ -139,6 +139,13 @@
         date: '18.06.2018',
         rate: '30/12'
     },
+    {
+        id: 21,
+        name: 'Крылатые Ангелы',
+        win: true,
+        date: '23.06.2018',
+        rate: '30/16'
+    },
 
 
 ];
@@ -1667,6 +1674,89 @@ var maps = {
             'castle': 13,
             'img': 'cities/20/b4.jpg',
             'name': 'в@дюс'
+        }
+    ],
+    21: [
+	{
+            'id': 320022760,
+            'ceil': 'e1',
+            'level': 61,
+            'castle': 12,
+            'img': 'cities/21/e1.jpg',
+            'name': 'Иванов '
         },
+	{
+            'id': 10159637,
+            'ceil': 'e2',
+            'level': 70,
+            'castle': 14,
+            'img': 'cities/21/e2.jpg',
+            'name': '&WA&Денис',
+	    'owner': true
+        },
+	{
+            'id': 193771482,
+            'ceil': 'e3',
+            'level': 76,
+            'castle': 16,
+            'img': 'cities/21/e3.jpg',
+            'name': 'Ольга'
+        },
+	{
+            'id': 154353179,
+            'ceil': 'e4',
+            'level': 78,
+            'castle': 16,
+            'img': 'cities/21/e4.jpg',
+            'name': 'простор'
+        },
+	{
+            'id': 324912181,
+            'ceil': 'd1',
+            'level': 65,
+            'castle': 12,
+            'img': 'cities/21/d1.jpg',
+            'name': 'Замок Чудес'
+        },
+	{
+            'id': 253248750,
+            'ceil': 'd2',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/21/d2.jpg',
+            'name': 'Виталий'
+        },
+	{
+            'id': 33621564,
+            'ceil': 'd3',
+            'level': 76,
+            'castle': 15,
+            'img': 'cities/21/d3.jpg',
+            'name': 'WГура-ЗанкаA'
+        },
+	{
+            'id': 7172162,
+            'ceil': 'c1',
+            'level': 77,
+            'castle': 15,
+            'img': 'cities/21/c1.jpg',
+            'name': '&WA& SVETIK'
+        },
+	{
+            'id': 113204305,
+            'ceil': 'c2',
+            'level': 77,
+            'castle': 15,
+            'img': 'cities/21/c2.jpg',
+            'name': '&WA&Фарида'
+        },
+	{
+            'id': 255277094,
+            'ceil': 'b1',
+            'level': 73,
+            'castle': 14,
+            'img': 'cities/21/b1.jpg',
+            'name': '100% ОТОМЩУ!'
+        }
     ]
 };
