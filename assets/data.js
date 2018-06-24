@@ -1770,8 +1770,8 @@ var maps = {
 	{
             'id': 119645204,
             'ceil': 'e1',
-            'level': 15,
-            'castle': 74,
+            'level': 74,
+            'castle': 15,
             'name': 'Синичка (ВЧ)'
         },
 	{
