@@ -146,6 +146,13 @@
         date: '23.06.2018',
         rate: '30/16'
     },
+    {
+        id: 22,
+        name: 'Воины Чести',
+        win: true,
+        date: '???',
+        rate: '???'
+    },
 
 
 ];
@@ -1758,5 +1765,85 @@ var maps = {
             'img': 'cities/21/b1.jpg',
             'name': '100% ОТОМЩУ!'
         }
-    ]
+    ],
+    22: [
+	{
+            'id': 119645204,
+            'ceil': 'e1',
+            'level': 15,
+            'castle': 74,
+            'name': 'Синичка (ВЧ)'
+        },
+	{
+            'id': 10490504,
+            'ceil': 'e2',
+            'level': 88,
+            'castle': 18,
+            'img': 'cities/22/e2.jpg',
+            'name': 'ВадиМ (ВЧ)'
+        },
+	{
+            'id': 8473668,
+            'ceil': 'e3',
+            'level': 79,
+            'castle': 16,
+            'img': 'cities/22/e3.jpg',
+            'name': 'Геныч (ВЧ)'
+        },
+	{
+            'id': 179821335,
+            'ceil': 'e4',
+            'level': 79,
+            'castle': 15,
+            'img': 'cities/22/e4.jpg',
+            'name': 'Магратея(ВЧ)'
+        },
+	{
+            'id': 54720389,
+            'ceil': 'd1',
+            'level': 90,
+            'castle': 19,
+            'img': 'cities/22/d1.jpg',
+            'name': 'Влад(ВЧ)',
+	    'owner': true
+        },
+	{
+            'id': 179096613,
+            'ceil': 'd2',
+            'level': 88,
+            'castle': 18,
+            'img': 'cities/22/d2.jpg',
+            'name': 'Евгений (ВЧ)'
+        },
+	{
+            'id': 15576204,
+            'ceil': 'd3',
+            'level': 78,
+            'castle': 15,
+            'name': '@ДаЧнИк@(ВЧ)'
+        },
+	{
+            'id': 19154603,
+            'ceil': 'c1',
+            'level': 80,
+            'castle': 16,
+            'img': 'cities/22/c1.jpg',
+            'name': 'Morrigan(ВЧ)'
+        },
+	{
+            'id': 18064730,
+            'ceil': 'c2',
+            'level': 74,
+            'castle': 15,
+            'name': 'Горец (ВЧ)'
+        },
+	{
+            'id': 399409283,
+            'ceil': 'b1',
+            'level': 77,
+            'castle': 15,
+            'name': 'Юрий (ВЧ)'
+        },
+
+	]
 };
