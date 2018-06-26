@@ -153,8 +153,13 @@
         date: '???',
         rate: '???'
     },
-
-
+    {
+        id: 23,
+        name: 'БОЕВАЯ ЭЛИТА',
+        win: true,
+        date: '26.06.2018',
+        rate: '30/17'
+    }
 ];
 
 var maps = {
@@ -1843,7 +1848,88 @@ var maps = {
             'level': 77,
             'castle': 15,
             'name': 'Юрий (ВЧ)'
+        }
+	],
+    23: [
+        {
+            'id': 311248745,
+            'ceil': 'e1',
+            'level': 71,
+            'castle': 13,
+            'img': 'cities/23/e1.jpg',
+            'name': '◄Avgust►'
         },
-
-	]
+        {
+            'id': 189542387,
+            'ceil': 'e2',
+            'level': 73,
+            'castle': 14,
+            'img': 'cities/23/e2.jpg',
+            'name': '&Про100Царь&'
+        },
+        {
+            'id': 3462991,
+            'ceil': 'e3',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/23/e3.jpg',
+            'name': 'ПАЛЫЧ'
+        },
+        {
+            'id': 231747710,
+            'ceil': 'e4',
+            'level': 75,
+            'castle': 14,
+            'img': 'cities/23/e4.jpg',
+            'name': 'Виталий'
+        },
+        {
+            'id': 339174248,
+            'ceil': 'd1',
+            'level': 73,
+            'castle': 14,
+            'img': 'cities/23/d1.jpg',
+            'name': 'John Wick'
+        },
+        {
+            'id': 166601573,
+            'ceil': 'd2',
+            'level': 88,
+            'castle': 18,
+            'img': 'cities/23/d2.jpg',
+            'name': 'ПОХУЙ'
+        },
+        {
+            'id': 201069013,
+            'ceil': 'd3',
+            'level': 77,
+            'castle': 15,
+            'img': 'cities/23/d3.jpg',
+            'name': '©ВАРЯГЪ'
+        },
+        {
+            'id': 21073210,
+            'ceil': 'c1',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/23/c1.jpg',
+            'name': 'ДРЫЩ'
+        },
+        {
+            'id': 49792503,
+            'ceil': 'c2',
+            'level': 79,
+            'castle': 15,
+            'img': 'cities/23/c2.jpg',
+            'name': 'GASHAN'
+        },
+        {
+            'id': 91322612,
+            'ceil': 'b1',
+            'level': 79,
+            'castle': 16,
+            'img': 'cities/23/b1.jpg',
+            'name': '◄ФУЛЛ ХАУС►'
+        }
+    ]
 };
