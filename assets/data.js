@@ -159,6 +159,14 @@
         win: true,
         date: '26.06.2018',
         rate: '30/17'
+    },
+    {
+        id: 24,
+        name: 'Ф Е О Д А Л',
+        win: true,
+        date: '03.07.2018',
+        rate: '29/15'
+
     }
 ];
 
@@ -1930,6 +1938,89 @@ var maps = {
             'castle': 16,
             'img': 'cities/23/b1.jpg',
             'name': '◄ФУЛЛ ХАУС►'
+        }
+    ],
+    24 : [
+        {
+            'id': 342147266,
+            'ceil': 'e1',
+            'level': 47,
+            'castle': 10,
+            'img': 'cities/24/e1.jpg',
+            'name': 'Андрей'
+        },
+        {
+            'id': 67875783,
+            'ceil': 'e2',
+            'level': 82,
+            'castle': 18,
+            'img': 'cities/24/e2.jpg',
+            'name': 'MPower '
+        },
+        {
+            'id': 1460047,
+            'ceil': 'e3',
+            'level': 79,
+            'castle': 16,
+            'img': 'cities/24/e3.jpg',
+            'name': 'Злопамятный'
+        },
+        {
+            'id': 223864871,
+            'ceil': 'e4',
+            'level': 74,
+            'castle': 15,
+            'img': 'cities/24/e4.jpg',
+            'name': 'КОЗЫРЬ'
+        },
+        {
+            'id': 319848317,
+            'ceil': 'd1',
+            'level': 86,
+            'castle': 17,
+            'img': 'cities/24/d1.jpg',
+            'name': '▓ Олег_bot_▓',
+            'owner': true
+        },
+        {
+            'id': 261124473,
+            'ceil': 'd2',
+            'level': 80,
+            'castle': 16,
+            'img': 'cities/24/d2.jpg',
+            'name': ' Жанна SV'
+        },
+        {
+            'id': 3169833,
+            'ceil': 'd3',
+            'level': 74,
+            'castle': 15,
+            'img': 'cities/24/d3.jpg',
+            'name': 'GriBniI{♂♥♀'
+        },
+        {
+            'id': 322834046,
+            'ceil': 'c1',
+            'level': 78,
+            'castle': 15,
+            'img': 'cities/24/c1.jpg',
+            'name': '▓ Deadpool ▓'
+        },
+        {
+            'id': 286444916,
+            'ceil': 'c2',
+            'level': 77,
+            'castle': 15,
+            'img': 'cities/24/c2.jpg',
+            'name': 'сер888'
+        },
+        {
+            'id': 98195825,
+            'ceil': 'b1',
+            'level': 73,
+            'castle': 15,
+            'img': 'cities/24/b1.jpg',
+            'name': 'Александр'
         }
     ]
 };
