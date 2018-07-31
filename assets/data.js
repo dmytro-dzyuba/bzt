@@ -166,7 +166,13 @@
         win: true,
         date: '03.07.2018',
         rate: '29/15'
-
+    },
+    {
+        id: 25,
+        name: 'ЭКСТРЕМАЛЫ Next',
+        win: true,
+        date: '31.07.2018',
+        rate: '30/6'
     }
 ];
 
@@ -2021,6 +2027,89 @@ var maps = {
             'castle': 15,
             'img': 'cities/24/b1.jpg',
             'name': 'Александр'
+        }
+    ],
+    25: [
+        {
+            'id': 64602113,
+            'ceil': 'e1',
+            'level': 79,
+            'castle': 16,
+            'img': 'cities/25/e1.jpg',
+            'name': 'tom ∑'
+        },
+        {
+            'id': 41767282,
+            'ceil': 'e2',
+            'level': 74,
+            'castle': 14,
+            'img': 'cities/25/e2.jpg',
+            'name': 'Тарас ∑ '
+        },
+        {
+            'id': 268106742,
+            'ceil': 'e3',
+            'level': 56,
+            'castle': 10,
+            'img': 'cities/25/e3.jpg',
+            'name': 'Жека∑ '
+        },
+        {
+            'id': 244330772,
+            'ceil': 'e4',
+            'level': 48,
+            'castle': 9,
+            'img': 'cities/25/e4.jpg',
+            'name': 'КириллБелый∑'
+        },
+        {
+            'id': 151172144,
+            'ceil': 'd2',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/25/d2.jpg',
+            'name': 'ALEXFIL∑'
+        },
+        {
+            'id': 216468707,
+            'ceil': 'd3',
+            'level': 68,
+            'castle': 13,
+            'img': 'cities/25/d3.jpg',
+            'name': 'Ларик ∑ '
+        },
+        {
+            'id': 330045081,
+            'ceil': 'd4',
+            'level': 57,
+            'castle': 10,
+            'img': 'cities/25/d4.jpg',
+            'name': 'Разобран ∑',
+            'owner': true
+        },
+        {
+            'id': 221446519,
+            'ceil': 'c3',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/25/c3.jpg',
+            'name': 'Вадим ∑'
+        },
+        {
+            'id': 279389593,
+            'ceil': 'c4',
+            'level': 60,
+            'castle': 12,
+            'img': 'cities/25/c4.jpg',
+            'name': 'GAINER ∑'
+        },
+        {
+            'id': 69344721,
+            'ceil': 'b4',
+            'level': 83,
+            'castle': 18,
+            'img': 'cities/25/b4.jpg',
+            'name': ' VEIRON ∑'
         }
     ]
 };
