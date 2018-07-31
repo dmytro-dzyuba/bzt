@@ -2110,6 +2110,10 @@ var maps = {
             'castle': 18,
             'img': 'cities/25/b4.jpg',
             'name': ' VEIRON ∑'
+        },
+        {
+            'ceil': 'd1',
+            'trap': true
         }
     ]
 };
