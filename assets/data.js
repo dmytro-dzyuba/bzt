@@ -173,6 +173,13 @@
         win: true,
         date: '31.07.2018',
         rate: '30/6'
+    },
+    {
+        id: 26,
+        name: 'Путешественникъ',
+        win: true,
+        date: '04.08.2018',
+        rate: '30/0'
     }
 ];
 
@@ -2114,6 +2121,89 @@ var maps = {
         {
             'ceil': 'd1',
             'trap': true
+        }
+    ],
+    26: [
+        {
+            'id': 351320361,
+            'ceil': 'e1',
+            'level': 33,
+            'castle': 8,
+            'img': 'cities/26/e1.jpg',
+            'name': 'БогиняСвета□'
+        },
+        {
+            'id': 131191896,
+            'ceil': 'e2',
+            'level': 82,
+            'castle': 16,
+            'img': 'cities/26/e2.jpg',
+            'name': '□сити□'
+        },
+        {
+            'id': 29069109,
+            'ceil': 'e3',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/26/e3.jpg',
+            'name': '□Алексей □'
+        },
+        {
+            'id': 41422943,
+            'ceil': 'e4',
+            'level': 82,
+            'castle': 16,
+            'img': 'cities/26/e4.jpg',
+            'name': '□ Г Р У Т □'
+        },
+        {
+            'id': 225129698,
+            'ceil': 'd1',
+            'level': 71,
+            'castle': 14,
+            'img': 'cities/26/d1.jpg',
+            'name': '□ХАМ□'
+        },
+        {
+            'id': 213793788,
+            'ceil': 'd2',
+            'level': 81,
+            'castle': 17,
+            'img': 'cities/26/d2.jpg',
+            'name': '.......'
+        },
+        {
+            'id': 304762914,
+            'ceil': 'd3',
+            'level': 59,
+            'castle': 11,
+            'img': 'cities/26/d3.jpg',
+            'name': '□Ангелина□'
+        },
+        {
+            'id': 54614447,
+            'ceil': 'c1',
+            'level': 84,
+            'castle': 17,
+            'img': 'cities/26/c1.jpg',
+	    'owner': true,
+            'name': '□ABADDON□'
+        },
+        {
+            'id': 308536494,
+            'ceil': 'c2',
+            'level': 60,
+            'castle': 12,
+            'img': 'cities/26/c2.jpg',
+            'name': '□ЭРЛ□'
+        },
+        {
+            'id': 51115388,
+            'ceil': 'b1',
+            'level': 84,
+            'castle': 18,
+            'img': 'cities/26/b1.jpg',
+            'name': '□ Назар □'
         }
     ]
 };
