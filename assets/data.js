@@ -180,6 +180,13 @@
         win: true,
         date: '04.08.2018',
         rate: '30/0'
+    },
+    {
+        id: 27,
+        name: '7Парус7',
+        win: true,
+        date: '01.09.2018',
+        rate: '27/16'
     }
 ];
 
@@ -2205,5 +2212,90 @@ var maps = {
             'img': 'cities/26/b1.jpg',
             'name': '□ Назар □'
         }
+    ],
+    27:
+    [
+        {
+            'id': 319409929,
+            'ceil': 'e1',
+            'level': 70,
+            'castle': 13,
+            'img': 'cities/27/e1.jpg',
+            'name': '♫Артур♫'
+        },
+        {
+            'id': 304144340,
+            'ceil': 'e2',
+            'level': 27,
+            'castle': 8,
+            'img': 'cities/27/e2.jpg',
+            'name': '◄ Маг ►'
+        },
+        {
+            'id': 164156599,
+            'ceil': 'e3',
+            'level': 90,
+            'castle': 19,
+            'img': 'cities/27/e3.jpg',
+            'name': '♫леха♫',
+            'owner': true
+        },
+        {
+            'id': 329924209,
+            'ceil': 'e4',
+            'level': 79,
+            'castle': 15,
+            'img': 'cities/27/e4.jpg',
+            'name': '♫Ж У Л И К ♫'
+        },
+        {
+            'id': 106162317,
+            'ceil': 'd1',
+            'level': 28,
+            'castle': 8,
+            'img': 'cities/27/d1.jpg',
+            'name': '◄ Андрей ►'
+        },
+        {
+            'id': 138255387,
+            'ceil': 'd2',
+            'level': 70,
+            'castle': 13,
+            'img': 'cities/27/d2.jpg',
+            'name': '♫Пандора♫'
+        },
+        {
+            'id': 105671536,
+            'ceil': 'd3',
+            'level': 77,
+            'castle': 16,
+            'img': 'cities/27/d3.jpg',
+            'name': '♫КУЛАК  ДНР♫'
+        },
+        {
+            'id': 166622567,
+            'ceil': 'c1',
+            'level': 85,
+            'castle': 17,
+            'img': 'cities/27/c1.jpg',
+            'name': '♫ Витал ♫'
+        },
+        {
+            'id': 133934323,
+            'ceil': 'c2',
+            'level': 82,
+            'castle': 16,
+            'img': 'cities/27/c2.jpg',
+            'name': '♫ гроз♫ '
+        },
+        {
+            'id': 161980823,
+            'ceil': 'b1',
+            'level': 78,
+            'castle': 15,
+            'img': 'cities/27/b1.jpg',
+            'name': '♫VOVAYDER♫ '
+        }
+        
     ]
 };
