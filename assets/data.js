@@ -187,6 +187,13 @@
         win: true,
         date: '01.09.2018',
         rate: '27/16'
+    },
+    {
+        id: 28,
+        name: 'Щит Империи',
+        win: true,
+        date: '04.09.2018',
+        rate: '30/1'
     }
 ];
 
@@ -2296,6 +2303,89 @@ var maps = {
             'img': 'cities/27/b1.jpg',
             'name': '♫VOVAYDER♫ '
         }
-        
+    ],
+    28:
+    [
+        {
+            'id': 306627196,
+            'ceil': 'e1',
+            'level': 69,
+            'castle': 13,
+            'img': 'cities/28/e1.jpg',
+            'name': '►ПАЛАЧ◄'
+        },
+        {
+            'id': 163446593,
+            'ceil': 'e2',
+            'level': 79,
+            'castle': 15,
+            'img': 'cities/28/e2.jpg',
+            'name': '►KARATEL◄'
+        },
+        {
+            'id': 151439072,
+            'ceil': 'e3',
+            'level': 82,
+            'castle': 16,
+            'img': 'cities/28/e3.jpg',
+            'name': '►Lord Darl◄'
+        },
+        {
+            'id': 182523257,
+            'ceil': 'e4',
+            'level': 72,
+            'castle': 14,
+            'img': 'cities/28/e4.jpg',
+            'name': 'Владимир ЩИТ'
+        },
+        {
+            'id': 3106274,
+            'ceil': 'd1',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/28/d1.jpg',
+            'name': '►FREEMAN◄'
+        },
+        {
+            'id': 66781971,
+            'ceil': 'd2',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/28/d2.jpg',
+            'name': 'Alexandria',
+            'owner': true
+        },
+        {
+            'id': 153379422,
+            'ceil': 'd3',
+            'level': 76,
+            'castle': 16,
+            'img': 'cities/28/d3.jpg',
+            'name': 'ПАХА BΞR'
+        },
+        {
+            'id': 2245680,
+            'ceil': 'c1',
+            'level': 81,
+            'castle': 17,
+            'img': 'cities/28/c1.jpg',
+            'name': 'Николай  ЩиТ'
+        },
+        {
+            'id': 163511342,
+            'ceil': 'c2',
+            'level': 77,
+            'castle': 15,
+            'img': 'cities/28/c2.jpg',
+            'name': 'Серёга '
+        },
+        {
+            'id': 437141818,
+            'ceil': 'b1',
+            'level': 69,
+            'castle': 14,
+            'img': 'cities/28/b1.jpg',
+            'name': 'Вася  ЩиТ'
+        },
     ]
 };
