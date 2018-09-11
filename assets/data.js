@@ -194,6 +194,13 @@
         win: true,
         date: '04.09.2018',
         rate: '30/1'
+    },
+    {
+        id: 29,
+        name: 'Крутые Воины',
+        win: true,
+        date: '11.09.2018',
+        rate: '29/13'
     }
 ];
 
@@ -2386,6 +2393,93 @@ var maps = {
             'castle': 14,
             'img': 'cities/28/b1.jpg',
             'name': 'Вася  ЩиТ'
+        },
+    ],
+    29: [
+        {
+            'id': 350423361,
+            'ceil': 'd1',
+            'level': 59,
+            'castle': 11,
+            'img': 'cities/29/d1.jpg',
+            'name': 'Колизей'
+        },
+        {
+            'id': 439165919,
+            'ceil': 'd2',
+            'level': 53,
+            'castle': 9,
+            'img': 'cities/29/d2.jpg',
+            'name': 'Мульт'
+        },
+        {
+            'id': 254474678,
+            'ceil': 'd4',
+            'level': 85,
+            'castle': 18,
+            'img': 'cities/29/d4.jpg',
+            'name': 'Стёпа Brest'
+        },
+        {
+            'id': 121572630,
+            'ceil': 'e2',
+            'level': 61,
+            'castle': 11,
+            'img': 'cities/29/e2.jpg',
+            'name': 'Тор '
+        },
+        {
+            'id': 170821104,
+            'ceil': 'e3',
+            'level': 86,
+            'castle': 17,
+            'img': 'cities/29/e3.jpg',
+            'name': 'МИХА'
+        },
+        {
+            'id': 403764549,
+            'ceil': 'e4',
+            'level': 51,
+            'castle': 11,
+            'img': 'cities/29/e4.jpg',
+            'name': 'Спартак'
+        },
+        {
+            'id': 141415157,
+            'ceil': 'c1',
+            'level': 72,
+            'castle': 15,
+            'img': 'cities/29/c1.jpg',
+            'name': 'Макс'
+        },
+        {
+            'id': 101663572,
+            'ceil': 'c2',
+            'level': 83,
+            'castle': 17,
+            'img': 'cities/29/c2.jpg',
+            'name': 'ЛУЧНИК',
+            'owner': true
+        },
+        {
+            'id': 47723892,
+            'ceil': 'c3',
+            'level': 83,
+            'castle': 18,
+            'img': 'cities/29/c3.jpg',
+            'name': 'ЧёрныйЛебедь'
+        },
+        {
+            'id': 156601347,
+            'ceil': 'c4',
+            'level': 78,
+            'castle': 16,
+            'img': 'cities/29/c4.jpg',
+            'name': 'Евгений '
+        },
+        {
+            'ceil': 'd3',
+            'trap': true
         },
     ]
 };
