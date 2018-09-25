@@ -201,6 +201,13 @@
         win: true,
         date: '11.09.2018',
         rate: '29/13'
+    },
+    {
+        id: 30,
+        name: 'Ночные Стрижи',
+        win: true,
+        date: '25.09.2018',
+        rate: '28/14'
     }
 ];
 
@@ -2481,5 +2488,88 @@ var maps = {
             'ceil': 'd3',
             'trap': true
         },
+    ],
+    30: [
+        {
+            'id': 81171755,
+            'ceil': 'e1',
+            'level': 88,
+            'castle': 18,
+            'img': 'cities/30/e1.jpg',
+            'name': 'Алекс',
+            'owner': true
+        },
+        {
+            'id': 29183343,
+            'ceil': 'e2',
+            'level': 82,
+            'castle': 16,
+            'img': 'cities/30/e2.jpg',
+            'name': 'Марат@Уфа'
+        },
+        {
+            'id': 88416221,
+            'ceil': 'e3',
+            'level': 72,
+            'castle': 15,
+            'img': 'cities/30/e3.jpg',
+            'name': 'Віт@лік VP'
+        },
+        {
+            'id': 19274576,
+            'ceil': 'e4',
+            'level': 76,
+            'castle': 15,
+            'img': 'cities/30/e4.jpg',
+            'name': 'Влад'
+        },
+        {
+            'id': 147144147,
+            'ceil': 'd1',
+            'level': 79,
+            'castle': 16,
+            'img': 'cities/30/d1.jpg',
+            'name': 'bot_селёдки'
+        },
+        {
+            'id': 274451697,
+            'ceil': 'd2',
+            'level': 80,
+            'castle': 15,
+            'img': 'cities/30/d2.jpg',
+            'name': 'Valkyrja'
+        },
+        {
+            'id': 357378630,
+            'ceil': 'd3',
+            'level': 76,
+            'castle': 14,
+            'img': 'cities/30/d3.jpg',
+            'name': 'Юра'
+        },
+        {
+            'id': 59530006,
+            'ceil': 'c1',
+            'level': 79,
+            'castle': 15,
+            'img': 'cities/30/c1.jpg',
+            'name': 'Николай'
+        },
+        {
+            'id': 97292243,
+            'ceil': 'c2',
+            'level': 77,
+            'castle': 15,
+            'img': 'cities/30/c2.jpg',
+            'name': 'Домовитый'
+        },
+        {
+            'id': 50599126,
+            'ceil': 'b1',
+            'level': 68,
+            'castle': 13,
+            'img': 'cities/30/b1.jpg',
+            'name': 'HOOLIGANS'
+        }
     ]
 };
