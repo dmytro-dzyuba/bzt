@@ -208,6 +208,13 @@
         win: true,
         date: '25.09.2018',
         rate: '28/20'
+    },
+    {
+        id: 31,
+        name: 'МамА АнархиЯ',
+        win: true,
+        date: '29.09.2018',
+        rate: '30/24'
     }
 ];
 
@@ -2571,5 +2578,89 @@ var maps = {
             'img': 'cities/30/b1.jpg',
             'name': 'HOOLIGANS'
         }
+    ],
+    31: [
+        {
+            'id': 356028957,
+            'ceil': 'e1',
+            'level': 75,
+            'castle': 14,
+            'img': 'cities/31/e1.jpg',
+            'name': '+ЯпончиК+'
+        },
+        {
+            'id': 119614110,
+            'ceil': 'e2',
+            'level': 73,
+            'castle': 14,
+            'img': 'cities/31/e2.jpg',
+            'name': '+Юрий+'
+        },
+        {
+            'id': 296513297,
+            'ceil': 'e3',
+            'level': 75,
+            'castle': 14,
+            'img': 'cities/31/e3.jpg',
+            'name': '+МахнО+'
+        },
+        {
+            'id': 314774927,
+            'ceil': 'e4',
+            'level': 75,
+            'castle': 14,
+            'img': 'cities/31/e4.jpg',
+            'name': '+ВикинГ+'
+        },
+        {
+            'id': 140397611,
+            'ceil': 'd1',
+            'level': 79,
+            'castle': 15,
+            'img': 'cities/31/d1.jpg',
+            'name': '+ТанК+'
+        },
+        {
+            'id': 17244722,
+            'ceil': 'd2',
+            'level': 80,
+            'castle': 15,
+            'img': 'cities/31/d2.jpg',
+            'name': '+АнархопанК+'
+        },
+        {
+            'id': 150492900,
+            'ceil': 'd3',
+            'level': 78,
+            'castle': 15,
+            'img': 'cities/31/d3.jpg',
+            'name': '+ Игорь +'
+        },
+        {
+            'id': 217649190,
+            'ceil': 'c1',
+            'level': 86,
+            'castle': 17,
+            'img': 'cities/31/c1.jpg',
+            'name': '+Виктор+  '
+        },
+        {
+            'id': 60792700,
+            'ceil': 'c2',
+            'level': 83,
+            'castle': 16,
+            'img': 'cities/31/c2.jpg',
+            'name': '+АнархиЯ+',
+            'owner': true
+        },
+        {
+            'id': 49478266,
+            'ceil': 'b1',
+            'level': 67,
+            'castle': 13,
+            'img': 'cities/31/b1.jpg',
+            'name': '+Александр+'
+        },
+
     ]
 };
