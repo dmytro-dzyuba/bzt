@@ -215,6 +215,13 @@
         win: true,
         date: '29.09.2018',
         rate: '30/24'
+    },
+    {
+        id: 32,
+        name: 'Крылатые Ангелы',
+        win: true,
+        date: '02.10.2018',
+        rate: '30/2'
     }
 ];
 
@@ -2660,7 +2667,88 @@ var maps = {
             'castle': 13,
             'img': 'cities/31/b1.jpg',
             'name': '+Александр+'
+        }
+    ],
+    32: [
+        {
+            'id': 320022760,
+            'ceil': 'e1',
+            'level': 62,
+            'castle': 12,
+            'img': 'cities/32/e1.jpg',
+            'name': 'Иванов '
         },
-
+        {
+            'id': 255277094,
+            'ceil': 'e2',
+            'level': 73,
+            'castle': 14,
+            'img': 'cities/32/e2.jpg',
+            'name': '100% ОТОМЩУ!'
+        },
+        {
+            'id': 154353179,
+            'ceil': 'e3',
+            'level': 79,
+            'castle': 16,
+            'img': 'cities/32/e3.jpg',
+            'name': '&WA&АрХаНгЕл'
+        },
+        {
+            'id': 33621564,
+            'ceil': 'e4',
+            'level': 77,
+            'castle': 15,
+            'img': 'cities/32/e4.jpg',
+            'name': 'WГура-ЗанкаA'
+        },
+        {
+            'id': 324912181,
+            'ceil': 'd1',
+            'level': 65,
+            'castle': 12,
+            'img': 'cities/32/d1.jpg',
+            'name': 'Замок Чудес'
+        },
+        {
+            'id': 204703853,
+            'ceil': 'd2',
+            'level': 87,
+            'castle': 18,
+            'img': 'cities/32/d2.jpg',
+            'name': '&WA&СамареЦ'
+        },
+        {
+            'id': 113204305,
+            'ceil': 'd3',
+            'level': 78,
+            'castle': 16,
+            'img': 'cities/32/d3.jpg',
+            'name': '&WA&Фарида'
+        },
+        {
+            'id': 253248750,
+            'ceil': 'c1',
+            'level': 82,
+            'castle': 16,
+            'img': 'cities/32/c1.jpg',
+            'name': 'Виталий'
+        },
+        {
+            'id': 193771482,
+            'ceil': 'c2',
+            'level': 77,
+            'castle': 16,
+            'img': 'cities/32/c2.jpg',
+            'name': 'Ольга'
+        },
+        {
+            'id': 7172162,
+            'ceil': 'b1',
+            'level': 79,
+            'castle': 15,
+            'img': 'cities/32/b1.jpg',
+            'name': '&WA& SVETIK'
+        }
     ]
 };
