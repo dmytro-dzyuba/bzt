@@ -222,6 +222,13 @@
         win: true,
         date: '02.10.2018',
         rate: '30/2'
+    },
+    {
+        id: 33,
+        name: 'РoССиЯ ВeЛuКaЯ',
+        win: true,
+        date: '09.10.2018',
+        rate: '30/11'
     }
 ];
 
@@ -2750,5 +2757,88 @@ var maps = {
             'img': 'cities/32/b1.jpg',
             'name': '&WA& SVETIK'
         }
+    ],
+    33: [
+        {
+            'id': 134057508,
+            'ceil': 'e3',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/33/e3.jpg',
+            'name': '@СЕРГОФАН@'
+        },
+        {
+            'id': 83234807,
+            'ceil': 'e2',
+            'level': 80,
+            'castle': 16,
+            'img': 'cities/33/e2.jpg',
+            'name': '@ SaeL @'
+        },
+        {
+            'id': 106987133,
+            'ceil': 'd3',
+            'level': 84,
+            'castle': 16,
+            'img': 'cities/33/d3.jpg',
+            'name': '=_Толян_='
+        },
+        {
+            'id': 362998212,
+            'ceil': 'e4',
+            'level': 58,
+            'castle': 10,
+            'img': 'cities/33/e4.jpg',
+            'name': '@DEXTER@'
+        },
+        {
+            'id': 30067566,
+            'ceil': 'd4',
+            'level': 83,
+            'castle': 16,
+            'img': 'cities/33/d4.jpg',
+            'name': '@EVGENIY@'
+        },
+        {
+            'id': 4864302,
+            'ceil': 'c4',
+            'level': 76,
+            'castle': 16,
+            'img': 'cities/33/c4.jpg',
+            'name': '@Тима @'
+        },
+        {
+            'id': 35003499,
+            'ceil': 'c3',
+            'level': 76,
+            'castle': 15,
+            'img': 'cities/33/c3.jpg',
+            'name': '@"Lim koks"@'
+        },
+        {
+            'id': 188102592,
+            'ceil': 'd2',
+            'level': 76,
+            'castle': 15,
+            'img': 'cities/33/d2.jpg',
+            'name': '@ERASER@'
+        },
+        {
+            'id': 234025747,
+            'ceil': 'e1',
+            'level': 73,
+            'castle': 14,
+            'img': 'cities/33/e1.jpg',
+            'name': '@ Nafanya @'
+        },
+        {
+            'id': 376826420,
+            'ceil': 'b4',
+            'level': 71,
+            'castle': 14,
+            'img': 'cities/33/b4.jpg',
+            'name': '@ DJON @'
+        }
+
     ]
 };
