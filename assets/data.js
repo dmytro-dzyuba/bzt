@@ -229,6 +229,13 @@
         win: true,
         date: '09.10.2018',
         rate: '30/11'
+    },
+    {
+        id: 34,
+        name: 'Крутые Воины',
+        win: true,
+        date: '16.10.2018',
+        rate: '27/2'
     }
 ];
 
@@ -2840,5 +2847,93 @@ var maps = {
             'name': '@ DJON @'
         }
 
+    ],
+    34: [
+        {
+            'id': 439165919,
+            'ceil': 'e1',
+            'level': 55,
+            'castle': 11,
+            'img': 'cities/34/e1.jpg',
+            'name': 'Мульт'
+        },
+        {
+            'ceil': 'e2',
+            'trap': true
+        },
+        {
+            'id': 254474678,
+            'ceil': 'e3',
+            'level': 86,
+            'castle': 18,
+            'img': 'cities/34/e3.jpg',
+            'name': 'Стёпа Brest'
+        },
+        {
+            'id': 138881907,
+            'ceil': 'e4',
+            'level': 47,
+            'castle': 11,
+            'img': 'cities/34/e4.jpg',
+            'name': 'Альмира'
+        },
+        {
+            'id': 403764549,
+            'ceil': 'd1',
+            'level': 57,
+            'castle': 13,
+            'name': 'Спартак'
+        },
+        {
+            'ceil': 'd2',
+            'trap': true
+        },
+        {
+            'id': 47723892,
+            'ceil': 'd3',
+            'level': 84,
+            'castle': 18,
+            'name': 'ЧёрныйЛебедь'
+        },
+        {
+            'id': 170821104,
+            'ceil': 'd4',
+            'level': 86,
+            'castle': 17,
+            'img': 'cities/34/.jpg',
+            'name': 'МИХА'
+        },
+        {
+            'id': 350423361,
+            'ceil': 'c1',
+            'level': 60,
+            'castle': 12,
+            'img': 'cities/34/c1.jpg',
+            'name': 'Колизей'
+        },
+        {
+            'id': 121572630,
+            'ceil': 'c2',
+            'level': 62,
+            'castle': 12,
+            'img': 'cities/34/c2.jpg',
+            'name': 'Тор '
+        },
+        {
+            'id': 403528330,
+            'ceil': 'c3',
+            'level': 63,
+            'castle': 12,
+            'img': 'cities/34/c3.jpg',
+            'name': 'Светлана'
+        },
+        {
+            'id': 141415157,
+            'ceil': 'c4',
+            'level': 72,
+            'castle': 15,
+            'img': 'cities/34/c4.jpg',
+            'name': 'Макс'
+        },
     ]
 };
