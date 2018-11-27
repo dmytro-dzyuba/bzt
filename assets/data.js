@@ -236,7 +236,15 @@
         win: true,
         date: '16.10.2018',
         rate: '27/2'
+    },
+    {
+        id: 35,
+        name: 'Тайная стража',
+        win: true,
+        date: '27.11.2018',
+        rate: '21/0'
     }
+
 ];
 
 var maps = {
@@ -2934,6 +2942,88 @@ var maps = {
             'castle': 15,
             'img': 'cities/34/c4.jpg',
             'name': 'Макс'
+        },
+    ],
+    35: [
+        {
+            'id': 337035989,
+            'ceil': 'e1',
+            'level': 61,
+            'castle': 12,
+            'img': 'cities/35/e1.jpg',
+            'name': 'Ольга ТС'
+        },
+        {
+            'id': 6362035,
+            'ceil': 'e2',
+            'level': 78,
+            'castle': 15,
+            'img': 'cities/35/e2.jpg',
+            'name': 'Tao ТС'
+        },
+        {
+            'id': 927209,
+            'ceil': 'e3',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/35/e3.jpg',
+            'name': 'Андрей ТС'
+        },
+        {
+            'id': 354711215,
+            'ceil': 'e4',
+            'level': 38,
+            'castle': 8,
+            'img': 'cities/35/e4.jpg',
+            'name': '♦Лорелей♦'
+        },
+        {
+            'id': 259312853,
+            'ceil': 'd1',
+            'level': 90,
+            'castle': 18,
+            'img': 'cities/35/d1.jpg',
+            'name': 'САПСАН ТС'
+        },
+        {
+            'id': 355516573,
+            'ceil': 'd2',
+            'level': 45,
+            'castle': 8,
+            'img': 'cities/35/d2.jpg',
+            'name': '░☻Nik3☻•SR'
+        },
+        {
+            'id': 192294235,
+            'ceil': 'd3',
+            'level': 79,
+            'castle': 16,
+            'img': 'cities/35/d3.jpg',
+            'name': 'ARLIHAR TC'
+        },
+        {
+            'id': 18819573,
+            'ceil': 'd4',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/35/d4.jpg',
+            'name': 'InL PNX ТС ®'
+        },
+        {
+            'id': 215029508,
+            'ceil': 'c2',
+            'level': 77,
+            'castle': 15,
+            'img': 'cities/35/c2.jpg',
+            'name': 'Матроскин'
+        },
+        {
+            'id': 23859134,
+            'ceil': 'c4',
+            'level': 79,
+            'castle': 15,
+            'img': 'cities/35/c4.jpg',
+            'name': 'Іван'
         },
     ]
 };
