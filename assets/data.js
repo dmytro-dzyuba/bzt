@@ -3044,8 +3044,8 @@ var maps = {
         {
             'id': 99385077,
             'ceil': 'e2',
-            'level': 17,
-            'castle': 84,
+            'level': 84,
+            'castle': 17,
             'name': 'Архитектор'
         },
         {
