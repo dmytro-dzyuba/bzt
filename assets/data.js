@@ -243,8 +243,14 @@
         win: true,
         date: '27.11.2018',
         rate: '21/0'
+    },
+    {
+        id: 36,
+        name: 'NIGHT WOLVES',
+        win: true,
+        date: '11.12.2018',
+        rate: '27/9'
     }
-
 ];
 
 var maps = {
@@ -3025,5 +3031,86 @@ var maps = {
             'img': 'cities/35/c4.jpg',
             'name': 'Іван'
         },
+    ],
+    36: [
+        {
+            'id': 45007163,
+            'ceil': 'e1',
+            'level': 70,
+            'castle': 14,
+            'img': 'cities/36/e1.jpg',
+            'name': 'Андрей NW'
+        },
+        {
+            'id': 99385077,
+            'ceil': 'e2',
+            'level': 17,
+            'castle': 84,
+            'name': 'Архитектор'
+        },
+        {
+            'id': 238818139,
+            'ceil': 'e3',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/36/e3.jpg',
+            'name': 'Подавись™NW™'
+        },
+        {
+            'id': 255159934,
+            'ceil': 'e4',
+            'level': 69,
+            'castle': 14,
+            'img': 'cities/36/e4.jpg',
+            'name': 'МИЛЫЙДОМ™NW™'
+        },
+        {
+            'id': 150532566,
+            'ceil': 'd1',
+            'level': 85,
+            'castle': 17,
+            'img': 'cities/36/d1.jpg',
+            'name': '☼163RU☼™NW™'
+        },
+        {
+            'id': 203837052,
+            'ceil': 'd2',
+            'level': 79,
+            'castle': 16,
+            'img': 'cities/36/d2.jpg',
+            'name': 'Сахалинец NW'
+        },
+        {
+            'id': 69770823,
+            'ceil': 'd3',
+            'level': 74,
+            'castle': 14,
+            'img': 'cities/36/d3.jpg',
+            'name': '♣Багира™NW™'
+        },
+        {
+            'id': 61926907,
+            'ceil': 'c1',
+            'level': 77,
+            'castle': 15,
+            'img': 'cities/36/c1.jpg',
+            'name': 'DIS™NW™'
+        },
+        {
+            'id': 276836787,
+            'ceil': 'c2',
+            'level': 74,
+            'castle': 14,
+            'img': 'cities/36/c2.jpg',
+            'name': '♣Лютый™NW™'
+        },
+        {
+            'id': 69782403,
+            'ceil': 'b1',
+            'level': 75,
+            'castle': 14,
+            'img': 'cities/36/b1.jpg',
+            'name': 'Решала™NW™'
+        }
     ]
 };
