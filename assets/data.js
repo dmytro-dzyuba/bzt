@@ -3110,7 +3110,8 @@ var maps = {
             'level': 75,
             'castle': 14,
             'img': 'cities/36/b1.jpg',
-            'name': 'Решала™NW™'
+            'name': 'Решала™NW™',
+            'owner': true
         }
     ]
 };
