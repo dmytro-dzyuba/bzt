@@ -250,6 +250,13 @@
         win: true,
         date: '11.12.2018',
         rate: '27/9'
+    },
+    {
+        id: 37,
+        name: 'порноЗавр',
+        win: true,
+        date: '29.12.2018',
+        rate: '24/13'
     }
 ];
 
@@ -3112,6 +3119,88 @@ var maps = {
             'img': 'cities/36/b1.jpg',
             'name': 'Решала™NW™',
             'owner': true
+        }
+    ],
+    37: [
+        {
+            'id': 486695548,
+            'ceil': 'e1',
+            'level': 45,
+            'castle': 8,
+            'img': 'cities/37/e1.jpg',
+            'name': 'Monya PZ'
+        },
+        {
+            'id': 121074153,
+            'ceil': 'e2',
+            'level': 34,
+            'castle': 8,
+            'img': 'cities/37/e2.jpg',
+            'name': 'Oleg'
+        },
+        {
+            'id': 133231030,
+            'ceil': 'e3',
+            'level': 87,
+            'castle': 18,
+            'img': 'cities/37/e3.jpg',
+            'name': 'Бульдозер'
+        },
+        {
+            'id': 168420792,
+            'ceil': 'e4',
+            'level': 41,
+            'castle': 8,
+            'img': 'cities/37/e4.jpg',
+            'name': 'мульт'
+        },
+        {
+            'id': 414355001,
+            'ceil': 'd1',
+            'level': 47,
+            'castle': 8,
+            'img': 'cities/37/d1.jpg',
+            'name': '«VRN»PZ 36Ru'
+        },
+        {
+            'id': 119617436,
+            'ceil': 'd2',
+            'level': 91,
+            'castle': 19,
+            'img': 'cities/37/d2.jpg',
+            'name': 'ВсемДобра PZ'
+        },
+        {
+            'id': 338990308,
+            'ceil': 'd3',
+            'level': 45,
+            'castle': 8,
+            'img': 'cities/37/d3.jpg',
+            'name': 'ШЕРИФ™'
+        },
+        {
+            'id': 29650542,
+            'ceil': 'c1',
+            'level': 88,
+            'castle': 18,
+            'img': 'cities/37/c1.jpg',
+            'name': 'Machete PZ'
+        },
+        {
+            'id': 256364346,
+            'ceil': 'c2',
+            'level': 56,
+            'castle': 11,
+            'img': 'cities/37/c2.jpg',
+            'name': 'Ваня™'
+        },
+        {
+            'id': 339024550,
+            'ceil': 'b1',
+            'level': 65,
+            'castle': 12,
+            'img': 'cities/37/b1.jpg',
+            'name': 'Monya PZ'
         }
     ]
 };
