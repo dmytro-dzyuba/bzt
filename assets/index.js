@@ -141,6 +141,10 @@ function displayImg(img){
     });
 }
 
+function buildShield(guildName, battleDate, win) {
+
+}
+
 function appendSpinner(){
     var margin = parseInt(($('.main').height() - 50)/2);
     $('<div />').addClass('blackVeil').append(

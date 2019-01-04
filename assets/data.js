@@ -257,6 +257,13 @@
         win: true,
         date: '29.12.2018',
         rate: '24/13'
+    },
+    {
+        id: 38,
+        name: '7Парус7',
+        win: true,
+        date: '07.07.2019',
+        rate: '27/12'
     }
 ];
 
@@ -3201,6 +3208,89 @@ var maps = {
             'castle': 12,
             'img': 'cities/37/b1.jpg',
             'name': 'Monya PZ'
+        }
+    ],
+    38:
+    [
+        {
+            'id': 164156599,
+            'ceil': 'e1',
+            'level': 91,
+            'castle': 18,
+            'img': 'cities/38/e1.jpg',
+            'name': '♫леха♫'
+        },
+        {
+            'id': 304144340,
+            'ceil': 'e2',
+            'level': 27,
+            'castle': 8,
+            'img': 'cities/38/e2.jpg',
+            'name': '◄ Маг ►'
+        },
+        {
+            'id': 161980823,
+            'ceil': 'e3',
+            'level': 80,
+            'castle': 16,
+            'img': 'cities/38/e3.jpg',
+            'name': '♫VOVAYDER♫ '
+        },
+        {
+            'id': 138255387,
+            'ceil': 'e4',
+            'level': 74,
+            'castle': 14,
+            'img': 'cities/38/e4.jpg',
+            'name': '♫Пандора♫'
+        },
+        {
+            'id': 106162317,
+            'ceil': 'd1',
+            'level': 26,
+            'castle': 8,
+            'img': 'cities/38/d1.jpg',
+            'name': '◄ Андрей ►'
+        },
+        {
+            'id': 133934323,
+            'ceil': 'd2',
+            'level': 85,
+            'castle': 17,
+            'img': 'cities/38/d2.jpg',
+            'name': '♫ гроз♫ '
+        },
+        {
+            'id': 145423603,
+            'ceil': 'd3',
+            'level': 48,
+            'castle': 10,
+            'img': 'cities/38/d3.jpg',
+            'name': '♫ЕКБ♫'
+        },
+        {
+            'id': 105671536,
+            'ceil': 'c1',
+            'level': 80,
+            'castle': 17,
+            'img': 'cities/38/c1.jpg',
+            'name': '♫КУЛАК  ДНР♫'
+        },
+        {
+            'id': 93340909,
+            'ceil': 'c2',
+            'level': 78,
+            'castle': 15,
+            'img': 'cities/38/c2.jpg',
+            'name': '♫Юрий♫"'
+        },
+        {
+            'id': 319409929,
+            'ceil': 'b1',
+            'level': 74,
+            'castle': 14,
+            'img': 'cities/38/b1.jpg',
+            'name': '♫Артур♫'
         }
     ]
 };
