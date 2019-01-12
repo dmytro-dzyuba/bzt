@@ -3313,7 +3313,7 @@ var maps = {
             'id': 200827012,
             'ceil': 'e2',
             'level': 84,
-            'castle': 18,
+            'castle': 16,
             'img': 'cities/39/e2.jpg',
             'name': '☼Хладовзор☼',
             'owner': true
