@@ -637,7 +637,7 @@
 }
 
 .vs {
-    background: url(./images/star_blue.png);
+    background: url('./images/star_blue.png');
     width: 37px;
     height: 37px;
     position: absolute;
@@ -651,7 +651,7 @@
     bottom: 92px;
     color: #fff;
     font-family: Roboto;
-    background: url(/assets/images/calendar.png) no-repeat;
+    background: url('./images/calendar.png') no-repeat;
     background-position: right;
     height: 32px;
     padding-right: 40px;
