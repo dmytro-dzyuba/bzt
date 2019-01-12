@@ -80,6 +80,13 @@ function open(id){
             div.appendTo(battleGrid);
         }
 
+        var battleInfo = data.find(function(battle){
+            return battle['id']==id;
+        });
+
+        buildShield(battleInfo);
+        addBatteleDate(battleInfo);
+
         $('.back').css('display', 'block');
     }
 }
@@ -115,7 +122,7 @@ function displayImg(img){
         var el = $(this);
         var width = el.width();
         var height = el.height();
-        if (win.width() < width || win.height() < height) {console.log(win.width(), width, win.height(), height);
+        if (win.width() < width || win.height() < height) {
             if (width / win.width() > height / win.height()) {
                 height = parseInt((win.width()/width)*el.height());
                 width = win.width();
@@ -141,8 +148,27 @@ function displayImg(img){
     });
 }
 
-function buildShield(guildName, battleDate, win) {
+function buildShield(battleInfo) {
+    var results = battleInfo.rate.split('/');
+    var width = parseInt(parseInt(results[1])/30*100);
+    var width2 = parseInt(parseInt(results[0])/30*100);
+    $('<div class="clanContainer" />').append(
+        $('<div class="clanName">' + battleInfo.name +'</div>')
+    ).append(
+        $('<div class="starContainer"><div class="blueContainer" style="width:' + width + '%"></div><div class="starsNumbers">'+results[1]+'</div></div>')
+    ).appendTo('.battleGrid');
 
+    $('<div class="ourContainer" />').append(
+        $('<div class="clanName">Роза и Меч</div>')
+    ).append(
+        $('<div class="starContainer"><div class="blueContainer" style="width:' + width2 + '%"></div><div class="starsNumbers">'+results[0]+'</div></div>')
+    ).append(
+        $('<div class="vs" />')
+    ).appendTo('.battleGrid');
+}
+
+function addBatteleDate(battleInfo){
+    $('<div class="battleDate">' + battleInfo.date + '</div>').appendTo('.battleGrid');
 }
 
 function appendSpinner(){

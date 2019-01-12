@@ -344,7 +344,7 @@
 .back {
     position: absolute;
     top: 30px;
-    left: 100px;
+    left: 25px;
     background: url('images/button2.png') no-repeat;
     background-size: cover;
     cursor: pointer;
@@ -576,4 +576,86 @@
 
 .ceil:hover .user{
     opacity: 1;
+}
+
+.clanContainer{
+    position: absolute;
+    right: 32px;
+    bottom: 25px;
+}
+
+.clanName{
+    font-family: Roboto;
+    color: #ffff;
+    font-size: 18px;
+    text-align: right;
+}
+
+.starContainer{
+    background: url('./images/emptybar.jpg');
+    width: 147px;
+    height: 24px;
+    margin-top: 5px;
+    position: relative;
+    float: right;
+}
+
+.blueContainer{
+    width: 0;
+    background: url('./images/full.jpg');
+    float: right;
+    height: 24px;
+    background-position: right;
+}
+
+.starsNumbers{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    height: 27px;
+    line-height: 26px;
+    vertical-align: middle;
+    z-index: 2;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.ourContainer{
+    position: absolute;
+    bottom: 25px;
+    right: 227px;
+}
+
+.ourContainer .blueContainer {
+    background-position: left;
+    float: left;
+}
+
+.ourContainer .clanName{
+    text-align: left;
+}
+
+.vs {
+    background: url(./images/star_blue.png);
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    right: -42px;
+    bottom: 0;
+}
+
+.battleDate{
+    position: absolute;
+    right: 29px;
+    bottom: 92px;
+    color: #fff;
+    font-family: Roboto;
+    background: url(/assets/images/calendar.png) no-repeat;
+    background-position: right;
+    height: 32px;
+    padding-right: 40px;
+    line-height: 37px;
+    vertical-align: middle;
+    font-size: 18px;
 }
