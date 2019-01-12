@@ -264,6 +264,13 @@
         win: true,
         date: '07.07.2019',
         rate: '27/12'
+    },
+    {
+        id: 39,
+        name: 'ВОИНЫ АРКАИМА',
+        win: true,
+        date: '12.07.2019',
+        rate: '39/30'
     }
 ];
 
@@ -3291,6 +3298,89 @@ var maps = {
             'castle': 14,
             'img': 'cities/38/b1.jpg',
             'name': '♫Артур♫'
+        }
+    ],
+    39: [
+        {
+            'id': 244147339,
+            'ceil': 'e1',
+            'level': 79,
+            'castle': 16,
+            'img': 'cities/39/e1.jpg',
+            'name': '☼♣владимир♣☼'
+        },
+        {
+            'id': 200827012,
+            'ceil': 'e2',
+            'level': 84,
+            'castle': 18,
+            'img': 'cities/39/e2.jpg',
+            'name': '☼Хладовзор☼',
+            'owner': true
+        },
+        {
+            'id': 21798301,
+            'ceil': 'e3',
+            'level': 84,
+            'castle': 16,
+            'img': 'cities/39/e3.jpg',
+            'name': '☼Сергей☼'
+        },
+        {
+            'id': 269619129,
+            'ceil': 'e4',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/39/e4.jpg',
+            'name': '☼Ронин☼'
+        },
+        {
+            'id': 319496248,
+            'ceil': 'd1',
+            'level': 84,
+            'castle': 16,
+            'img': 'cities/39/d1.jpg',
+            'name': '☼Боеслав☼'
+        },
+        {
+            'id': 14239558,
+            'ceil': 'd2',
+            'level': 89,
+            'castle': 18,
+            'img': 'cities/39/d2.jpg',
+            'name': 'ОзгутФилдинг'
+        },
+        {
+            'id': 27631266,
+            'ceil': 'd3',
+            'level': 83,
+            'castle': 16,
+            'img': 'cities/39/d3.jpg',
+            'name': '☼Agurchik☼'
+        },
+        {
+            'id': 155067065,
+            'ceil': 'c1',
+            'level': 84,
+            'castle': 16,
+            'img': 'cities/39/c1.jpg',
+            'name': 'Ганник'
+        },
+        {
+            'id': 7331096,
+            'ceil': 'c2',
+            'level': 84,
+            'castle': 16,
+            'img': 'cities/39/c2.jpg',
+            'name': '  ☼Авалон☼'
+        },
+        {
+            'id': 107927272,
+            'ceil': 'b1',
+            'level': 82,
+            'castle': 16,
+            'img': 'cities/39/b1.jpg',
+            'name': '♣Эномай♣'
         }
     ]
 };
