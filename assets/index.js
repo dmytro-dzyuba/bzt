@@ -14,7 +14,7 @@ $(document).ready(function(){console.log(window.top);
                 $('<td />').html(
                     $('<div />').addClass(battle.win ? 'victory' : 'defeat')
                 )
-            ).appendTo(table)
+            ).prependTo(table)
             .click(function(e){
                 open($(this).attr('id'));
             });

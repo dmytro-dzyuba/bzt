@@ -271,6 +271,13 @@
         win: true,
         date: '12.01.2019',
         rate: '30/30'
+    },
+    {
+        id: 40,
+        name: 'Oрден Храбрых',
+        win: true,
+        date: '15.01.2019',
+        rate: '30/10'
     }
 ];
 
@@ -3382,5 +3389,89 @@ var maps = {
             'img': 'cities/39/b1.jpg',
             'name': '♣Эномай♣'
         }
+    ],
+    40: [
+        {
+            'id': 321798249,
+            'ceil': 'e1',
+            'level': 42,
+            'castle': 8,
+            'img': 'cities/40/e1.jpg',
+            'name': 'Bалера   РЗВ'
+        },
+        {
+            'id': 247775983,
+            'ceil': 'e2',
+            'level': 89,
+            'castle': 18,
+            'img': 'cities/40/e2.jpg',
+            'name': 'ЛЕКСИ '
+        },
+        {
+            'id': 248162599,
+            'ceil': 'e3',
+            'level': 78,
+            'castle': 15,
+            'img': 'cities/40/e3.jpg',
+            'name': 'Кирюха ОХ',
+            'owner': true
+        },
+        {
+            'id': 408638838,
+            'ceil': 'e4',
+            'level': 66,
+            'castle': 12,
+            'img': 'cities/40/e4.jpg',
+            'name': 'ЦИТАДЕЛЬ '
+        },
+        {
+            'id': 42111810,
+            'ceil': 'd1',
+            'level': 87,
+            'castle': 17,
+            'img': 'cities/40/d1.jpg',
+            'name': '_bot_1'
+        },
+        {
+            'id': 188405825,
+            'ceil': 'd2',
+            'level': 83,
+            'castle': 16,
+            'img': 'cities/40/d2.jpg',
+            'name': '⌂Миша⌂'
+        },
+        {
+            'id': 233098027,
+            'ceil': 'd3',
+            'level': 79,
+            'castle': 15,
+            'img': 'cities/40/d3.jpg',
+            'name': 'Кум  ОХ'
+        },
+        {
+            'id': 9198708,
+            'ceil': 'c1',
+            'level': 78,
+            'castle': 15,
+            'img': 'cities/40/c1.jpg',
+            'name': 'LazaRus ОХ'
+        },
+        {
+            'id': 140094124,
+            'ceil': 'c2',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/40/c2.jpg',
+            'name': '⌂Крематорий⌂'
+        },
+        {
+            'id': 191844758,
+            'ceil': 'b1',
+            'level': 70,
+            'castle': 14,
+            'img': 'cities/40/b1.jpg',
+            'name': '•by.ßabo_ОХ•'
+        }
+
     ]
 };
