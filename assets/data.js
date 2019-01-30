@@ -278,6 +278,13 @@
         win: true,
         date: '15.01.2019',
         rate: '30/10'
+    },
+    {
+        id: 41,
+        name: 'СПОТЫКАЧ',
+        win: true,
+        date: '29.01.2019',
+        rate: '22/0'
     }
 ];
 
@@ -3472,6 +3479,86 @@ var maps = {
             'img': 'cities/40/b1.jpg',
             'name': '•by.ßabo_ОХ•'
         }
-
+    ],
+    41: [
+        {
+            'id': 314318990,
+            'ceil': 'd3',
+            'level': 77,
+            'castle': 15,
+            'img': 'cities/41/d3.jpg',
+            'name': 'Лимон SP'
+        },
+        {
+            'id': 271297607,
+            'ceil': 'c2',
+            'level': 70,
+            'castle': 14,
+            'img': 'cities/41/c2.jpg',
+            'name': 'Роман☺SР'
+        },
+        {
+            'id': 245111616,
+            'ceil': 'b1',
+            'level': 39,
+            'castle': 13,
+            'img': 'cities/41/b1.jpg',
+            'name': ' Максим SP'
+        },
+        {
+            'id': 60814428,
+            'ceil': 'd2',
+            'level': 85,
+            'castle': 17,
+            'img': 'cities/41/d2.jpg',
+            'name': 'VITALIY SP '
+        },
+        {
+            'id': 245430952,
+            'ceil': 'e3',
+            'level': 84,
+            'castle': 17,
+            'img': 'cities/41/e3.jpg',
+            'name': 'NORD SP'
+        },
+        {
+            'id': 1585489,
+            'ceil': 'e2',
+            'level': 88,
+            'castle': 18,
+            'img': 'cities/41/e2.jpg',
+            'name': 'ВОЛТУЗЫ SP'
+        },
+        {
+            'id': 1405342,
+            'ceil': 'e4',
+            'level': 81,
+            'castle': 16,
+            'img': 'cities/41/e4.jpg',
+            'name': 'уZbaГoiся_SP'
+        },
+        {
+            'id': 135180905,
+            'ceil': 'c1',
+            'level': 84,
+            'castle': 17,
+            'img': 'cities/41/c1.jpg',
+            'name': 'VERA SP♥'
+        },
+        {
+            'id': 236511920,
+            'ceil': 'd1',
+            'level': 83,
+            'castle': 17,
+            'name': 'epicwar SP'
+        },
+        {
+            'id': 135180905,
+            'ceil': 'e1',
+            'level': 78,
+            'castle': 15,
+            'name': 'Harpist SP',
+            'owner': true
+        }
     ]
 };
