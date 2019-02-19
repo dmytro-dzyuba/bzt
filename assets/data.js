@@ -285,7 +285,15 @@
         win: true,
         date: '29.01.2019',
         rate: '22/0'
+    },
+    {
+        id: 42,
+        name: 'СвояЛегенда',
+        win: true,
+        date: '19.02.2019',
+        rate: '29/11'
     }
+
 ];
 
 var maps = {
@@ -3559,6 +3567,88 @@ var maps = {
             'castle': 15,
             'name': 'Harpist SP',
             'owner': true
+        }
+    ],
+    42: [
+        {
+            'id': 376865934,
+            'ceil': 'e1',
+            'level': 47,
+            'castle': 8,
+            'name': '░ Гризли  ░',
+            'img': 'cities/42/e1.jpg'
+        },
+        {
+            'id': 32899792,
+            'ceil': 'e2',
+            'level': 85,
+            'castle': 17,
+            'name': 'Вальдемар',
+            'img': 'cities/42/e2.jpg'
+        },
+        {
+            'id': 127908431,
+            'ceil': 'e3',
+            'level': 82,
+            'castle': 16,
+            'name': '░Любовь░',
+            'img': 'cities/42/e3.jpg'
+        },
+        {
+            'id': 273192163,
+            'ceil': 'e4',
+            'level': 66,
+            'castle': 14,
+            'name': '░Marek░',
+            'img': 'cities/42/e4.jpg'
+        },
+        {
+            'id': 259505642,
+            'ceil': 'd1',
+            'level': 86,
+            'castle': 17,
+            'name': 'Геннадий',
+            'img': 'cities/42/d1.jpg'
+        },
+        {
+            'id': 170886842,
+            'ceil': 'd2',
+            'level': 84,
+            'castle': 16,
+            'name': '░BlackCastle',
+            'img': 'cities/42/d2.jpg'
+        },
+        {
+            'id': 104028771,
+            'ceil': 'd3',
+            'level': 71,
+            'castle': 14,
+            'name': '░Лионель░',
+            'img': 'cities/42/d3.jpg'
+        },
+        {
+            'id': 325372451,
+            'ceil': 'c1',
+            'level': 76,
+            'castle': 15,
+            'name': ' ░ Alik ░ ',
+            'img': 'cities/42/c1.jpg'
+        },
+        {
+            'id': 317720328,
+            'ceil': 'c2',
+            'level': 73,
+            'castle': 14,
+            'name': '░Эскулапия░',
+            'img': 'cities/42/c2.jpg'
+        },
+        {
+            'id': 22434502,
+            'ceil': 'b1',
+            'level': 72,
+            'castle': 14,
+            'name': '░Эльф░',
+            'img': 'cities/42/b1.jpg'
         }
     ]
 };
